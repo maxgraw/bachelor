@@ -24,10 +24,14 @@ RUN pnpm run build --filter=example
 FROM base AS runner
 WORKDIR /app
 
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 sveltekit
+USER sveltekit
+
 COPY --from=installer /app/apps/example/build build/
 COPY --from=installer /app/node_modules node_modules/
 
-COPY package.json .
+COPY ./apps/example/package.json .
 EXPOSE 3000
 ENV NODE_ENV=production
 CMD [ "node", "build" ]
