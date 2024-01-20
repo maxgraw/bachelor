@@ -34,4 +34,5 @@ COPY --from=installer /app/node_modules node_modules/
 COPY ./apps/example/package.json .
 EXPOSE 3002
 ENV NODE_ENV=production
+ENV PORT=3002
 CMD [ "node", "build" ]
