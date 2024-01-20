@@ -32,6 +32,6 @@ COPY --from=installer /app/apps/example/build build/
 COPY --from=installer /app/node_modules node_modules/
 
 COPY ./apps/example/package.json .
-EXPOSE 3000
+EXPOSE 3002
 ENV NODE_ENV=production
 CMD [ "node", "build" ]
