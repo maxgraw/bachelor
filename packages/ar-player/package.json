@@ -3,8 +3,14 @@
   "version": "0.0.1",
   "scripts": {},
   "exports": {
-    ".": {
+    "./base": {
+      "import": "./src/base.js"
+    },
+    "./editable": {
       "import": "./src/index.js"
+    },
+    "./interactive": {
+      "import": "./src/interactive.js"
     }
   },
   "dependencies": {

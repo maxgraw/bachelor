@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
 
   onMount(async () => {
-    await import("ar-player");
+    await import("ar-player/editable");
   });
 
   $: selectedColor = "red";
@@ -20,4 +20,5 @@
 
 {JSON.stringify(selectedColor)}
 
-<ar-element model="./Duck.gltf" color={selectedColor}></ar-element>
+<ar-element-editable model="./Duck.gltf" color={selectedColor}
+></ar-element-editable>

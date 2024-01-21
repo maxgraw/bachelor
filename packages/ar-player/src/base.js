@@ -95,6 +95,16 @@ export class BaseElement extends HTMLElement {
     scene.add(mesh);
   }
 
+  setParameter(mesh, parameter, value) {
+    if (!mesh) return;
+
+    mesh.traverse((child) => {
+      if (child.isMesh) {
+        child[parameter] = value;
+      }
+    });
+  }
+
   render(timestamp, frame) {
     if (frame) {
     }
@@ -102,4 +112,4 @@ export class BaseElement extends HTMLElement {
   }
 }
 
-customElements.define("base-ar-element", BaseElement);
+customElements.define("ar-element-base", BaseElement);

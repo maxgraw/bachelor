@@ -4,7 +4,7 @@ import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { BaseElement } from "./base.js";
 
 export class ARElement extends BaseElement {
-  static observedAttributes = ["model", "color"];
+  static observedAttributes = ["model"];
 
   constructor() {
     super();
@@ -35,11 +35,6 @@ export class ARElement extends BaseElement {
     this.renderer.render(this.scene, this.camera);
   }
 
-  setColor(mesh, color) {
-    const material = new THREE.MeshStandardMaterial({ color: color });
-    this.setParameter(mesh, "material", material);
-  }
-
   attributeChangedCallback(name, oldValue, newValue) {
     if (name === "model") {
       const loader = new GLTFLoader();
@@ -48,11 +43,7 @@ export class ARElement extends BaseElement {
         this.model = gltf.scene;
       });
     }
-
-    if (name === "color") {
-      this.setColor(this.model, newValue);
-    }
   }
 }
 
-customElements.define("ar-element-editable", ARElement);
+customElements.define("ar-element-interactive", ARElement);
