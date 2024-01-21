@@ -24,6 +24,11 @@ export class BaseElement extends HTMLElement {
 
     // Controller
     this.controller = this.renderer.xr.getController(0);
+
+    // Raycaster
+    this.raycaster = {
+      controller: new THREE.Raycaster(),
+    };
   }
 
   init(renderer, scene) {
@@ -105,8 +110,43 @@ export class BaseElement extends HTMLElement {
     });
   }
 
+  raycaster_controller_update() {
+    this.controller.updateMatrixWorld();
+    const tempMatrix = new THREE.Matrix4();
+
+    tempMatrix.identity().extractRotation(this.controller.matrixWorld);
+
+    this.raycaster.controller.ray.origin.setFromMatrixPosition(
+      this.controller.matrixWorld
+    );
+
+    this.raycaster.controller.ray.direction
+      .set(0, 0, -1)
+      .applyMatrix4(tempMatrix);
+  }
+
+  raycast(raycaster, element) {
+    return element.reduce((closestIntersection, obj) => {
+      const intersection = raycaster.intersectObject(obj, true);
+
+      if (!intersection[0]) return closestIntersection;
+
+      if (
+        !closestIntersection ||
+        intersection[0].distance < closestIntersection.distance
+      ) {
+        intersection[0].object = obj;
+
+        return intersection[0];
+      }
+
+      return closestIntersection;
+    }, null);
+  }
+
   render(timestamp, frame) {
     if (frame) {
+      this.raycaster_controller_update();
     }
     this.renderer.render(this.scene, this.camera);
   }
