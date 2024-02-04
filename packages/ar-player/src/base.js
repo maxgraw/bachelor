@@ -8,7 +8,7 @@ export class BaseElement extends HTMLElement {
     super();
 
     // Base Three.js Components
-    this.renderer = new THREE.WebGLRenderer({ alpha: true });
+    this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     this.scene = new THREE.Scene();
     this.camera = new THREE.PerspectiveCamera(
       50,
@@ -39,18 +39,26 @@ export class BaseElement extends HTMLElement {
     const shadow = this.attachShadow({ mode: "open" });
     shadow.appendChild(renderer.domElement);
     shadow.appendChild(
-      ARButton.createButton(renderer, { requiredFeatures: ["hit-test"] })
+      ARButton.createButton(renderer, {
+        requiredFeatures: ["hit-test"],
+      })
     );
 
-    renderer.xr.enabled = true;
+    scene.add(this.camera);
+
     renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    renderer.xr.enabled = true;
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setPixelRatio(window.devicePixelRatio);
 
-    const light = new THREE.DirectionalLight(0xffffff, 3);
-    light.castShadow = true;
-    light.position.set(1, 1, 1).normalize();
-    scene.add(light);
+    // LIGHT
+
+    const ambient_light = new THREE.AmbientLight(0xffffff, 0.9);
+    scene.add(ambient_light);
+
+    const point_light = new THREE.PointLight(0xffffff, 1, 20);
+    this.camera.add(point_light);
 
     this.cursor = CURSOR;
 

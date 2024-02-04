@@ -6,8 +6,8 @@
     "./base": {
       "import": "./src/base.js"
     },
-    "./editable": {
-      "import": "./src/index.js"
+    "./test": {
+      "import": "./src/test.js"
     },
     "./interactive": {
       "import": "./src/interactive.js"

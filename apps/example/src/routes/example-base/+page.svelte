@@ -2,8 +2,8 @@
   import { onMount } from "svelte";
 
   onMount(async () => {
-    await import("ar-player/base");
+    await import("ar-player/test");
   });
 </script>
 
-<base-ar-element model="./Duck.gltf"></base-ar-element>
+<ar-element-test></ar-element-test>
