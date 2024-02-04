@@ -51,6 +51,9 @@ importers:
       three:
         specifier: 0.160.0
         version: 0.160.0
+      three-mesh-ui:
+        specifier: 6.5.4
+        version: 6.5.4(three@0.160.0)
 
 packages:
 
@@ -1316,6 +1319,15 @@ packages:
       magic-string: 0.30.5
       periscopic: 3.1.0
     dev: true
+
+  /three-mesh-ui@6.5.4(three@0.160.0):
+    resolution: {integrity: sha512-QA2KlHrbj7zGjKqpNXcwvini8g5gOXb44ExdupVpxCqmHln/sWNGOmN0yIa/HjnMGYJWP4M+NchTHvwUp+MWIw==}
+    engines: {node: x.x.x}
+    peerDependencies:
+      three: '>=0.144.0'
+    dependencies:
+      three: 0.160.0
+    dev: false
 
   /three@0.160.0:
     resolution: {integrity: sha512-DLU8lc0zNIPkM7rH5/e1Ks1Z8tWCGRq6g8mPowdDJpw1CFBJMU7UoJjC6PefXW7z//SSl0b2+GCw14LB+uDhng==}

@@ -1,6 +1,8 @@
 import * as THREE from "three";
 import { ARButton } from "three/addons/webxr/ARButton.js";
 
+import { CURSOR } from "./models/cursor.js";
+
 export class BaseElement extends HTMLElement {
   constructor() {
     super();
@@ -29,6 +31,8 @@ export class BaseElement extends HTMLElement {
     this.raycaster = {
       controller: new THREE.Raycaster(),
     };
+
+    this.objects = [];
   }
 
   init(renderer, scene) {
@@ -39,19 +43,21 @@ export class BaseElement extends HTMLElement {
     );
 
     renderer.xr.enabled = true;
+    renderer.shadowMap.enabled = true;
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setPixelRatio(window.devicePixelRatio);
 
     const light = new THREE.DirectionalLight(0xffffff, 3);
+    light.castShadow = true;
     light.position.set(1, 1, 1).normalize();
     scene.add(light);
 
-    this.cursor = new THREE.Mesh(
-      new THREE.RingGeometry(0.15, 0.2, 32).rotateX(-Math.PI / 2),
-      new THREE.MeshBasicMaterial()
-    );
+    this.cursor = CURSOR;
+
     this.cursor.matrixAutoUpdate = false;
     this.cursor.visible = false;
+    this.cursor.lookAt(this.camera);
+
     scene.add(this.cursor);
   }
 

@@ -29,6 +29,34 @@ export class ARElement extends BaseElement {
   }
 
   on_select() {
+    //const data = this.raycast(this.raycaster.controller, [this.cursor]);
+
+    const container = new ThreeMeshUI.Block({
+      height: 1,
+      width: 1.2,
+      contentDirection: "row",
+      justifyContent: "space-around",
+    });
+
+    const option_one = new ThreeMeshUI.Block({
+      height: 0.5,
+      width: 0.5,
+      backgroundColor: new THREE.Color("red"),
+    });
+
+    const option_two = new ThreeMeshUI.Block({
+      height: 0.5,
+      width: 0.5,
+      backgroundColor: new THREE.Color("blue"),
+    });
+
+    container.add(option_one);
+    container.add(option_two);
+
+    const position = new THREE.Vector3();
+    position.setFromMatrixPosition(this.cursor.matrix);
+    container.position.copy(position);
+
     this.scene.add(container);
   }
 
