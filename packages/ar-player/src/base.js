@@ -1,7 +1,8 @@
 import * as THREE from "three";
 import { ARButton } from "three/addons/webxr/ARButton.js";
+import ThreeMeshUI from "three-mesh-ui";
 
-import { CURSOR } from "./models/cursor.js";
+import { CURSOR } from "./components/cursor.js";
 
 export class BaseElement extends HTMLElement {
   constructor() {
@@ -162,6 +163,7 @@ export class BaseElement extends HTMLElement {
     if (frame) {
       this.raycaster_controller_update();
     }
+    ThreeMeshUI.update();
     this.renderer.render(this.scene, this.camera);
   }
 }

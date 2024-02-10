@@ -5,7 +5,7 @@ const ring_color = new THREE.Color("hsl(0, 0%, 95%)");
 
 // PLUS Element
 
-const geometry = new THREE.BoxGeometry(0.05, 0.2, 0.05);
+const geometry = new THREE.BoxGeometry(0.03, 0.1, 0.03);
 
 const mesh_one = new THREE.Mesh(
   geometry,
@@ -40,7 +40,7 @@ plus.position.y = 0.1;
 // RING
 
 export const ring = new THREE.Mesh(
-  new THREE.RingGeometry(0.15, 0.2, 32).rotateX(-Math.PI / 2),
+  new THREE.RingGeometry(0.1, 0.12, 32).rotateX(-Math.PI / 2),
   new THREE.MeshStandardMaterial({
     color: ring_color,
   })
