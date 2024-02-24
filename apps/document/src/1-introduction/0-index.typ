@@ -1,0 +1,1 @@
+Diese Arbeit beschäftigt sich mit der Entwicklung eines Augmented Reality Komponenenten auf basis von WebXR welcher das editierbare darstellen, platzieren und exportieren von 3D Möbeln ermöglicht.
