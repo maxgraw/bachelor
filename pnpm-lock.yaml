@@ -17,9 +17,9 @@ importers:
 
   apps/example:
     dependencies:
-      ar-player:
+      player:
         specifier: workspace:*
-        version: link:../../packages/ar-player
+        version: link:../../packages/player
     devDependencies:
       '@sveltejs/adapter-node':
         specifier: 4.0.0
@@ -46,8 +46,20 @@ importers:
         specifier: ^5.0.3
         version: 5.0.12
 
-  packages/ar-player:
+  packages/components:
     dependencies:
+      three:
+        specifier: 0.160.0
+        version: 0.160.0
+      three-mesh-ui:
+        specifier: 6.5.4
+        version: 6.5.4(three@0.160.0)
+
+  packages/player:
+    dependencies:
+      components:
+        specifier: workspace:*
+        version: link:../components
       three:
         specifier: 0.160.0
         version: 0.160.0

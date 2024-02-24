@@ -1,5 +1,9 @@
-<ul>
-  <li><a href="/example-base">Base Example</a></li>
-  <li><a href="/example-editable">Base Editable</a></li>
-  <li><a href="/example-interactive">Base Interactive</a></li>
-</ul>
+<script>
+  import { onMount } from "svelte";
+
+  onMount(async () => {
+    await import("player/interactive");
+  });
+</script>
+
+<ar-element-interactive></ar-element-interactive>

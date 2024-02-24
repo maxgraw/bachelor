@@ -48,6 +48,6 @@ export const ring = new THREE.Mesh(
 
 // CURSOR
 
-export const CURSOR = new THREE.Group();
-CURSOR.add(ring);
-CURSOR.add(plus);
+export const cursor = new THREE.Group();
+cursor.add(ring);
+cursor.add(plus);

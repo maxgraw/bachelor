@@ -1,0 +1,15 @@
+{
+  "name": "components",
+  "version": "0.0.1",
+  "scripts": {},
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "dependencies": {
+    "three": "0.160.0",
+    "three-mesh-ui": "6.5.4"
+  },
+  "type": "module"
+}
