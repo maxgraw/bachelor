@@ -4,13 +4,10 @@
   "scripts": {},
   "exports": {
     "./base": {
-      "import": "./src/base.js"
-    },
-    "./test": {
-      "import": "./src/test.js"
+      "import": "./src/base/index.js"
     },
     "./interactive": {
-      "import": "./src/interactive.js"
+      "import": "./src/interactive/index.js"
     }
   },
   "dependencies": {

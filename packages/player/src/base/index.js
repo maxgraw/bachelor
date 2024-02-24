@@ -57,10 +57,10 @@ export class BaseElement extends HTMLElement {
 
     scene.add(this.camera);
 
-    const ambient_light = new THREE.AmbientLight(0xffffff, 0.9);
+    const ambient_light = new THREE.AmbientLight(0xffffff, 1);
     scene.add(ambient_light);
 
-    const point_light = new THREE.PointLight(0xffffff, 1, 20);
+    const point_light = new THREE.PointLight(0xffffff, 1, 0);
     this.camera.add(point_light);
 
     this.cursor = cursor;
@@ -70,14 +70,6 @@ export class BaseElement extends HTMLElement {
     this.cursor.lookAt(this.camera);
 
     scene.add(this.cursor);
-  }
-
-  add_element(scene, mesh) {
-    if (!this.cursor.visible) return;
-
-    this.cursor.matrix.decompose(mesh.position, mesh.quaternion, mesh.scale);
-
-    scene.add(mesh);
   }
 
   render(timestamp, frame) {
