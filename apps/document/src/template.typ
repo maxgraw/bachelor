@@ -10,6 +10,7 @@
   set page(numbering: "1", number-align: right)
   set text(font: "Linux Libertine", lang: "de")
   set heading(numbering: "1.1")
+  
 
   text(1.1em, date)
   v(1.2em, weak: true)
