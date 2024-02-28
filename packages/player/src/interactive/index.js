@@ -1,9 +1,7 @@
 import * as THREE from "three";
 import ThreeMeshUI from "three-mesh-ui";
 import { BaseElement } from "../base";
-import { on_select } from "./modules";
-import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
-import { create_menu } from "components";
+import { on_select, load_options } from "./modules";
 
 export class ARElement extends BaseElement {
   static observedAttributes = ["options"];
@@ -12,6 +10,7 @@ export class ARElement extends BaseElement {
     super();
 
     this.on_select = on_select.bind(this);
+    this.load_options = load_options.bind(this);
 
     this.options = [];
 
@@ -28,18 +27,7 @@ export class ARElement extends BaseElement {
 
   attributeChangedCallback(name, oldValue, newValue) {
     if (name === "options") {
-      const loader = new GLTFLoader();
-      const values = newValue.split(",").map((option) => option.trim());
-
-      Promise.all(values.map((option) => loader.loadAsync(option))).then(
-        (gltfs) => {
-          this.options = gltfs.map((gltf) => gltf.scene);
-
-          this.menu = create_menu(this.options);
-          this.menu.visible = false;
-          this.scene.add(this.menu);
-        }
-      );
+      this.load_options(newValue);
     }
   }
 
