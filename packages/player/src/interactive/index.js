@@ -14,6 +14,8 @@ export class ARElement extends BaseElement {
 
     this.options = [];
 
+    this.selection = [];
+
     this.menu = null;
   }
 
