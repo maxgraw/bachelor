@@ -13,6 +13,9 @@
   :global(*) {
     margin: 0;
     padding: 0;
-    background-color: hsl(0, 0%, 10%);
+  }
+
+  :global(button) {
+    background-color: red;
   }
 </style>

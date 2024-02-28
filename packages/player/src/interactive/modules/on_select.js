@@ -80,6 +80,7 @@ export function on_select() {
   if (data?.isAdd) {
     const position = get_position(this.add);
     this.menu.position.copy(position);
+    this.menu.position.y += 0.5;
     this.menu.visible = true;
     return;
   }

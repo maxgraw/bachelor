@@ -8,6 +8,7 @@ import {
   raycast,
   set_parameter,
   raycast_controller,
+  window_resize,
 } from "./modules";
 
 export class BaseElement extends HTMLElement {
@@ -27,6 +28,7 @@ export class BaseElement extends HTMLElement {
     this.raycast = raycast.bind(this);
     this.set_parameter = set_parameter.bind(this);
     this.raycast_controller = raycast_controller.bind(this);
+    this.window_resize = window_resize.bind(this);
 
     this.hitTestSource = null;
     this.hitTestSourceRequested = false;
@@ -46,10 +48,13 @@ export class BaseElement extends HTMLElement {
     shadow.appendChild(
       ARButton.createButton(renderer, {
         requiredFeatures: ["hit-test"],
+        style: {
+          backgroundColor: "transparent",
+        },
       })
     );
 
-    renderer.shadowMap.enabled = true;
+    shadow.renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     renderer.xr.enabled = true;
     renderer.setSize(window.innerWidth, window.innerHeight);

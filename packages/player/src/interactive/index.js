@@ -1,4 +1,3 @@
-import * as THREE from "three";
 import ThreeMeshUI from "three-mesh-ui";
 import { BaseElement } from "../base";
 import { add } from "components";
@@ -26,6 +25,8 @@ export class ARElement extends BaseElement {
 
   connectedCallback() {
     this.init(this.renderer, this.scene);
+
+    window.addEventListener("resize", this.window_resize);
 
     this.controller.addEventListener("select", this.on_select);
 
