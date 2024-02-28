@@ -6,4 +6,4 @@
   });
 </script>
 
-<ar-element-interactive options="test"></ar-element-interactive>
+<ar-element-interactive options="box.glb, box_second.glb"></ar-element-interactive>

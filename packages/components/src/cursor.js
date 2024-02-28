@@ -14,7 +14,7 @@ const ring = new THREE.Mesh(ring_geometry, ring_material);
 
 // Plus
 
-const plus_color = new THREE.Color("hsl(0, 0%, 100%)");
+const plus_color = new THREE.Color("hsl(84, 100%, 50%)");
 const plus_material = new THREE.MeshStandardMaterial({
   color: plus_color,
 });
