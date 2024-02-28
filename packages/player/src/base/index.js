@@ -51,7 +51,7 @@ export class BaseElement extends HTMLElement {
       })
     );
 
-    renderer.renderer.shadowMap.enabled = true;
+    renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     renderer.xr.enabled = true;
     renderer.setSize(window.innerWidth, window.innerHeight);
