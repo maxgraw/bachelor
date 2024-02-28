@@ -40,10 +40,23 @@ const handle_menu = (config) => {
 const handle_ui = (config) => {
   const index = config.data.object.index;
 
-  const mesh = new THREE.Mesh(
-    config.options[index].children[0].geometry,
-    config.options[index].children[0].material
+  const mesh = config.options[index].children[index].clone();
+  mesh.material = new THREE.MeshStandardMaterial().copy(
+    config.options[index].children[index].material
   );
+  mesh.material.needsUpdate = true;
+  mesh.isSelection = true;
+
+  if (config.selected) {
+    const position = get_position(config.selected);
+    mesh.position.copy(position);
+    mesh.position.y += 0.5;
+
+    config.selection.push(mesh);
+    config.scene.add(mesh);
+
+    return;
+  }
 
   const position = get_position(config.cursor);
   mesh.position.copy(position);
@@ -59,9 +72,30 @@ const handle_ui = (config) => {
 export function on_select() {
   const data = this.raycast(this.raycaster.controller, [
     this.cursor,
+    this.add,
     ...this.selection,
     ...this.menu.childrenUIs,
   ]);
+
+  if (data?.isAdd) {
+    const position = get_position(this.add);
+    this.menu.position.copy(position);
+    this.menu.visible = true;
+    return;
+  }
+
+  if (data?.object?.isSelection) {
+    this.selected = data.object;
+    this.selected.material.color.set("red");
+
+    this.scene.add(this.add);
+    this.add.visible = true;
+    this.add.position.copy(this.selected.position);
+    this.add.position.y = this.selected.position.y + 0.5;
+
+    this.menu.visible = false;
+    return;
+  }
 
   if (data?.object?.isUI) {
     handle_ui({
@@ -70,7 +104,10 @@ export function on_select() {
       cursor: this.cursor,
       selection: this.selection,
       scene: this.scene,
+      selected: this.selected,
     });
+
+    this.menu.visible = false;
     return;
   }
 
@@ -83,5 +120,7 @@ export function on_select() {
     return;
   }
 
+  this.add.visible = false;
+  this.selected = null;
   this.menu.visible = false;
 }

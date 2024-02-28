@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import ThreeMeshUI from "three-mesh-ui";
 import { BaseElement } from "../base";
+import { add } from "components";
 import { on_select, load_options } from "./modules";
 
 export class ARElement extends BaseElement {
@@ -15,6 +16,10 @@ export class ARElement extends BaseElement {
     this.options = [];
 
     this.selection = [];
+
+    this.selected = null;
+
+    this.add = add;
 
     this.menu = null;
   }

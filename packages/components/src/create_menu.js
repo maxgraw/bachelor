@@ -41,6 +41,8 @@ export const create_menu = (options) => {
 
     block.index = index;
 
+    block.append = ["top"];
+
     container.add(block);
   });
 

@@ -57,11 +57,16 @@ export class BaseElement extends HTMLElement {
 
     scene.add(this.camera);
 
-    const ambient_light = new THREE.AmbientLight(0xffffff, 1);
+    const ambient_light = new THREE.HemisphereLight(
+      "white",
+      "darkslategrey",
+      5
+    );
     scene.add(ambient_light);
 
-    const point_light = new THREE.PointLight(0xffffff, 1, 0);
-    this.camera.add(point_light);
+    const main_light = new THREE.DirectionalLight("white", 4);
+    main_light.position.set(10, 10, 10);
+    scene.add(main_light);
 
     this.cursor = cursor;
 

@@ -1,3 +1,11 @@
+import * as THREE from "three";
+
+/**
+ * Raycast
+ * @param {THREE.Raycaster} raycaster
+ * @param {Array} element
+ * @returns {object}
+ */
 export function raycast(raycaster, element) {
   return element.reduce((closestIntersection, obj) => {
     const intersection = raycaster.intersectObject(obj, true);
