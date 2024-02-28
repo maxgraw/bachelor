@@ -14,8 +14,4 @@
     margin: 0;
     padding: 0;
   }
-
-  :global(button) {
-    background-color: red;
-  }
 </style>

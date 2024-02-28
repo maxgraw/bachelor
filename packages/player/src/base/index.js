@@ -48,13 +48,10 @@ export class BaseElement extends HTMLElement {
     shadow.appendChild(
       ARButton.createButton(renderer, {
         requiredFeatures: ["hit-test"],
-        style: {
-          backgroundColor: "transparent",
-        },
       })
     );
 
-    shadow.renderer.shadowMap.enabled = true;
+    renderer.renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     renderer.xr.enabled = true;
     renderer.setSize(window.innerWidth, window.innerHeight);
