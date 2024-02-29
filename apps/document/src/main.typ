@@ -1,11 +1,11 @@
 #import "template.typ": *
 
 #show: project.with(
-  title: "Entwicklung einer Augmented Reality Anwendung auf Basis von WebXR für die Darstellung von 3D-Modellen im Möbelhandel",
+  title: "Konzeption und Entwicklung einer Augmented Reality Konstruktionsumgebung für Möbelsysteme auf Basis von WebXR",
   authors: (
     "Maximilian David Graw",
   ),
-  date: "December 13, 2023",
+  date: "December 12, 2023",
 )
 
 = Einleitung
@@ -21,7 +21,6 @@
 #include "1-introduction/3-method.typ"
 
 = Theoretische Grundlagen
-@hde-online-monitor-2023
 
 = Methodik
 

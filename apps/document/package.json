@@ -1,0 +1,9 @@
+{
+  "name": "document",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "typst watch src/main.typ",
+    "build": "typst compile src/main.typ"
+  }
+}

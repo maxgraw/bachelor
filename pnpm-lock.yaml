@@ -15,6 +15,8 @@ importers:
         specifier: latest
         version: 1.12.4
 
+  apps/document: {}
+
   apps/example:
     dependencies:
       player:
@@ -45,15 +47,6 @@ importers:
       vite:
         specifier: ^5.0.3
         version: 5.0.12
-
-  packages/assets:
-    dependencies:
-      three:
-        specifier: 0.160.0
-        version: 0.160.0
-      three-mesh-ui:
-        specifier: 6.5.4
-        version: 6.5.4(three@0.160.0)
 
   packages/components:
     dependencies:
