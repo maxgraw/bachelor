@@ -1,0 +1,1 @@
+Der folgende Abschnitt erläuter einige Grundbegriffe, welche für das weitere Verständis der Arbeit notwendig sind.

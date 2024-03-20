@@ -1,0 +1,1 @@
+Das Ziel dieser Arbeit besteht darin, eine Konstruktionsumgebung als Webanwendung zu entwicklen, welche die Darstellung und Verändung von 3D-Modellen (Möbeln) ermöglicht. 

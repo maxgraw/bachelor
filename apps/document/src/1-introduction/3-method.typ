@@ -1,0 +1,1 @@
+Die Arbeit ist in X Bereiche aufgeteilt. 
