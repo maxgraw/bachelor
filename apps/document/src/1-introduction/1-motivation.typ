@@ -1,1 +1,11 @@
-Der Online Handel im Bereich der Möbel und Innenarchitektur ist ein wachsender Markt, welcher durch die Digitalisierung und die damit verbundenen technologischen Entwicklungen stetig an Bedeutung gewinnt. Hierbei spielt die Visualisierung von Möbeln und Einrichtungsgegenständen eine entscheidende Rolle, da sich die Darstellung von Möbeln zwischen Bildern und der Echten Darstellung stark unterscheiden kann. Desweiteren müssen Größenverhältnisse beachtet werden, um die Möbelstücke in den Raum zu integrieren. AR bietet eine vereinfachung dieses Prozesses, indem die Möbelstücke virtuell im Raum platziert werden können.
+Die Motivation für diese Arbeit ergibt sich aus der wachsenden Bedeutung von Augmented Reality Technologien und deren Potenzial, die Interaktion zwischen Mensch und Technik zu erweitern.
+
+Hierbei ermöglicht AR eine nahtlose Integration von digitalen Inhalten in die reale Welt und eröffnet neue Möglichkeiten für die Interaktion mit virtuellen Objekten.
+
+Diese Integration ist insbesondere im Bereich der Einrichtungsplanung und Möbelindustrie von großem Interesse.
+
+Hierbei gibt es bereits verschiedene Anwendungen, welche diese Visualiserung ermöglichen, jedoch sind diese oft auf spezielle Hardware oder Software beschränkt.
+
+WebXR bietet eine unmittelbare und plattformübergreifende Bereitstellung von AR-Erlebnissen, die über herkömmliche Webbrowser zugänglich sind.
+
+Dadurch wird die Eintrittsbarriere für Endnutzer verringert.
