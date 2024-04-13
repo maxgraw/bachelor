@@ -1,0 +1,25 @@
+Stand der Technik:
+
+- Bestehende Lösungen
+-> Zunächst Apps
+
+-> Frameworks (Unity etc.)
+
+
+--> Fokus auf WebXR
+-> Frameworks
+
+
+Wahl der Technik:
+Mit Grundlage auf Titel und Einleitung. Wieso WebXR vorteile bietet. Wahl des Frameworks begründen
+
+Implementierung:
+...
+
+- Einleitung
+- Begriffserklärung
+- Stand der Technik
+- Wahl der Technik
+- Implementierung
+- Studie
+- Fazit
