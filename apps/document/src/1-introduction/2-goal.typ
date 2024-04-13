@@ -1,8 +1,6 @@
-Das Ziel dieser Arbeit ist die Entwicklung einer AR Konstruktionsumgebung für Möbelsysteme auf Basis von WebXR. 
+Das Ziel dieser Arbeit besteht darin, eine AR-Konstruktionsumgebung für Möbelsysteme auf Basis von WebXR zu entwickeln. 
 
-Diese Umgebung soll es Nutzenden ermöglichen, 3D-Möbelmodelle nicht nur in ihrer realen Umgebung zu visualisieren, sondern auch spezifische Parameter dieser Möbelstücke direkt in der AR-Umgebung zu editieren und anzupassen. 
-
-Durch die Implementierung dieser Funktionalitäten innerhalb einer Web-basierten Plattform, die auf dem WebXR-Standard aufbaut, strebt die Arbeit an, eine benutzerfreundliche und zugängliche Lösung zu schaffen, die ohne die Notwendigkeit externer Anwendungen oder spezieller Hardware auskommt.
+Diese Umgebung soll Nutzerinnen und Nutzern die Möglichkeit bieten, 3D-Möbelmodelle in ihrer realen Umgebung zu visualisieren und darüber hinaus spezifische Parameter dieser Möbelstücke direkt in der AR-Umgebung zu editieren und anzupassen. 
 
 Ein weiteres zentrales Ziel ist die Demonstration der technischen Machbarkeit und des praktischen Nutzens solcher AR-Anwendungen in der Möbelindustrie. Dabei soll untersucht werden, inwiefern eine intuitive und effiziente Interaktion mit 3D-Möbelmodellen in einer AR-Umgebung die Entscheidungsfindung und Personalisierung von Möbeln durch die Endnutzenden verbessern kann. Hierzu gehört auch die Analyse von Benutzerinteraktionen und das Design von Benutzeroberflächen, die eine einfache Handhabung der komplexen Funktionalitäten ermöglichen.
 
