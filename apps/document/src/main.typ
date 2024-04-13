@@ -22,4 +22,13 @@
 == Vorgehensweise
 #include "1-introduction/3-method.typ"
 
+= Begriffserklärung
+#include "2-basics/0-index.typ"
+
+== Augmented Reality
+#include "2-basics/1-ar.typ"
+
+== WebXR
+#include "2-basics/2-webxr.typ"
+
 #bibliography("bib.yml")

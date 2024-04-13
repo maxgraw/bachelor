@@ -1,0 +1,1 @@
+Der folgende Abschnitt betrachtet den Momentanen Stand der Technik im Bezug auf Augemented Reality und legt hierbei einen Fokus auf Anwendungen, welche diese Technologie nutzen.
