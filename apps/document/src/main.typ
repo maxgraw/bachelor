@@ -25,7 +25,7 @@
 = Augmented Reality
 #include "2-ar/0-index.typ"
 
-== Begriffsherleitung
+== Begriffsabgrenzung
 #include "2-ar/1-expression.typ"
 
 == Definition

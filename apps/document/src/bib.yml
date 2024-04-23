@@ -30,3 +30,9 @@ ar-milgram:
     title: Augmented reality a class of displays on the reality-virtuality continuum
     year: 1995
     info: TODO
+azuma-survey:
+    type: Article
+    title: A Survey of Augmented Reality
+    author:
+        - Ronald T. Azuma
+    year: 1997
