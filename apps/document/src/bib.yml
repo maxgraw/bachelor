@@ -6,7 +6,7 @@ hde-online-monitor-2023:
     url:
         value: https://einzelhandel.de/images/attachments/article/2876/HDE_Online_Monitor_2023.pdf
         date: 2023-12-17
-ralf-doener-2013:
+vr-ar-doener:
     type: Book
     title:  Virtual und Augmented Reality (VR / AR)
     author:
@@ -15,7 +15,17 @@ ralf-doener-2013:
         - Grimm, Paul
         - Jung, Bernhard
     year: 2013
-milgram-display:
+ar-review:
+    type: Article
+    title: "Augmented Reality: A Comprehensive Review"
+    author:
+        - Shaveta Dargan
+        - Shally Bansal
+        - Munish Kumar
+        - Ajay Mittal
+        - Krishan Kumar
+    year: 2022
+ar-milgram:
     type: Article
     title: Augmented reality a class of displays on the reality-virtuality continuum
     year: 1995

@@ -6,4 +6,4 @@ Obwohl das Modell einen umfassenden Überblick bietet, gestaltet sich die klare 
 
 Abschließend sei erwähnt, dass der Begriff Extended Reality (XR) als Oberbegriff für Augmented Reality, Virtual Reality und Mixed Reality dient und damit das gesamte Spektrum des Reality-Virtuality Continuums umfasst.
 
-@milgram-display
+@ar-milgram

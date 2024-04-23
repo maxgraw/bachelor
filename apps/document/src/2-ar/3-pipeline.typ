@@ -1,19 +1,7 @@
-Der Prozess der Augmentierten Realität kann sich laut @ralf-doener-2013 in fünf Schritte aufteilen lassen:
+Der Prozess der Augmentierten Realität lässt sich nach Meinung von Döner in fünf grundlegende Schritte unterteilen.
 
-1. Videoaufnahme
-2. Tracking
-3. Registrierung
-4. Darstellung
-5. Ausgabe
+Zunächst beginnt der Vorgang mit der Videoaufnahme, bei der Bilder von der Umgebung erfasst werden. Darauf folgt das Tracking, bei dem die Position und Orientierung des Benutzers oder bestimmter Objekte im Raum ermittelt wird. Hierbei lassen sich zwei Verfahren unterscheiden. Beim "Inside-Out-Tracking" befinden sich die messenden Sensoren am Gerät selber, während beim "Outside-In-Tracking" die Sensoren in der Umgebung verteilt sind. Der dritte Schritt ist die Registrierung, bei welcher die virtuellen Inhalte mithilfe der Daten aus dem Tracking Prozess mit Daten aus der Realität verbunden werden. Dadurch können z.B. Positionsdaten von virtuellen Objekten in der realen Welt bestimmt werden. Anschließend erfolgt die Darstellung, hierbei werden die virtuellen Inhalte wiedergegeben. Diese müssen perspektivisch korrekt über das Bildmaterial gelegt werden, um eine nahtlose Überlagerung zu erreichen. Teilweise muss hierfür die Auflösung und Schärfe des virtuellen Bildes angepasst werden. Der letzte Schritt ist die Ausgabe, bei der die augmentierten Bilder dem Benutzer über ein Gerät ausgeben werden. @vr-ar-doener
 
-Diese werden in @XXX durch folgende Schritte erweitert:
+Die von Doener beschriebenen Schritte werden in Abbildung 1 durch weitere Punkte von Shaveta Dargan erweitert. Hierbei wird zunächst der Benutzer als Schritt hinzugefügt, welcher das System betrachtet und nutzt. Desweiteren wird die Darstellung um den Punkt der Interaktion erweitert, welcher die Möglichkeit zur Steuerung der virtuellen Inhalte durch den Benutzer beschreibt. @ar-review
 
-1. Benutzer
-2. Videoaufnahme
-3. Tracking
-4. Registrierung
-5. Darstellung
-6. Interaktion
-7. Ausgabe
-
-Die Schritte stellen eine Grundlegende Abfolge dar.
+#image("../media/ar-pipeline.png", width: 100%)
