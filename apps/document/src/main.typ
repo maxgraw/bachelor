@@ -28,7 +28,4 @@
 == Augmented Reality
 #include "2-basics/1-ar.typ"
 
-== WebXR
-#include "2-basics/2-webxr.typ"
-
 #bibliography("bib.yml")

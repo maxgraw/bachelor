@@ -1,4 +1,8 @@
-Augmented Reality (AR) ist eine Technologie, die die reale Umgebung eines Benutzers durch die Integration von digital generierten Informationen oder Objekten in Echtzeit erweitert. Diese Technologie überlagert virtuelle Inhalte – wie Bilder, Videos, 3D-Modelle oder Text – über die natürliche Welt, sodass eine verschmolzene Ansicht entsteht, in der physische und digitale Elemente koexistieren. AR kann durch eine Vielzahl von Geräten erlebt werden, einschließlich Smartphones, Tablets, speziellen AR-Brillen und Head-Mounted Displays.
+Das "Reality-Virtuality Continuum", ursprünglich von Paul Milgram und Fumio Kishino konzipiert, bietet einen Rahmen zur Unterscheidung zwischen realen und virtuellen Umgebungen.
+An einem Ende des Kontinuums befindet sich die vollständig reale Umgebung, und am anderen Ende die vollständig virtuelle Realität. Zwischen diesen Extremen erstreckt sich die Mixed Reality, die in Augmented Reality und Augmented Virtuality unterteilt wird.
+Augmented Reality bezeichnet die Einblendung virtueller Objekte in die reale Welt, während Augmented Virtuality reale Objekte in virtuellen Umgebungen integriert @milgram-display.
+
+AR kann durch eine Vielzahl von Geräten erlebt werden, einschließlich Smartphones, Tablets, speziellen AR-Brillen und Head-Mounted Displays.
 
 Der Kern von AR ist die Verwendung von Software und Sensoren, um die Position und Orientierung des Benutzers in seiner Umgebung zu erfassen. Mithilfe von Kameras, Beschleunigungsmessern, GPS und anderen Sensoren kann das Gerät seine Position im Raum bestimmen und die virtuellen Objekte entsprechend der Perspektive des Benutzers richtig ausrichten und skalierten. Die Interaktion mit den überlagerten Informationen kann entweder über Touchscreens, Sprachbefehle, Gestenerkennung oder durch physische Bewegungen erfolgen.
 

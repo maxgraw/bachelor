@@ -6,4 +6,17 @@ hde-online-monitor-2023:
     url:
         value: https://einzelhandel.de/images/attachments/article/2876/HDE_Online_Monitor_2023.pdf
         date: 2023-12-17
-
+ralf-doener-2013:
+    type: Book
+    title:  Virtual und Augmented Reality (VR / AR)
+    author:
+        - Döner, Ralf
+        - Broll, Wolfgang
+        - Grimm, Paul
+        - Jung, Bernhard
+    year: 2013
+milgram-display:
+    type: Article
+    title: Augmented reality a class of displays on the reality-virtuality continuum
+    year: 1995
+    info: TODO
