@@ -10,6 +10,19 @@
   logo: image("./media/HRW_LOGO.jpg", width: 40%),
 )
 
+#show outline.entry.where(
+  level: 1
+): it => {
+  v(12pt, weak: true)
+  strong(it)
+}
+#outline(indent: auto)
+#pagebreak()
+
+
+#set page(numbering: "1", number-align: right)
+#counter(page).update(1)
+
 = Einleitung
 #include "1-introduction/0-index.typ"
 
@@ -33,5 +46,32 @@
 
 == Prozess
 #include "2-ar/3-pipeline.typ"
+
+= Stand der Technik
+branch state-v0
+== Frameworks
+=== ARKit
+=== ARCore
+=== Unity
+=== WebXR
+== Applikation
+
+= Konzeptentwicklung
+branch concept-v0
+== Zielgruppendefinition
+== Anforderungsanalyse
+== Wahl der Technik
+
+= Implementierung
+branch implementation-v0
+
+= Evaluation
+branch evaluation-v0
+== Zielsetzung
+== Methodik
+== Ergebnisse
+
+= Ausblick und Fazit
+branch conclusion-v0
 
 #bibliography("bib.yml")

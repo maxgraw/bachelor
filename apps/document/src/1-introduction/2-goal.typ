@@ -1,3 +1,11 @@
-Das Ziel dieser Arbeit besteht darin, eine AR-Konstruktionsumgebung für Möbelsysteme auf Basis von WebXR zu entwickeln. Diese Umgebung soll Nutzerinnen und Nutzern die Möglichkeit bieten, 3D-Möbelmodelle in ihrer realen Umgebung zu visualisieren und darüber hinaus spezifische Parameter dieser Möbelstücke direkt in der AR-Umgebung zu editieren und anzupassen. 
+Das Ziel dieser Arbeit ist es, eine Augmented Reality (AR)-Konstruktionsumgebung für Möbelsysteme zu entwickeln, die auf WebXR basiert.
+Diese Umgebung ermöglicht es Nutzern, 3D-Möbelmodelle in ihrer realen Umgebung zu visualisieren und spezifische Parameter dieser Modelle direkt in der AR-Umgebung zu bearbeiten.
 
-Ein weiteres zentrales Ziel ist die Demonstration der technischen Machbarkeit und des praktischen Nutzens solcher AR-Anwendungen in der Möbelindustrie. Dabei soll untersucht werden, inwiefern eine intuitive und effiziente Interaktion mit 3D-Möbelmodellen in einer AR-Umgebung die Entscheidungsfindung und Personalisierung von Möbeln durch die Endnutzenden verbessern kann. Hierzu gehört auch die Analyse von Benutzerinteraktionen und das Design von Benutzeroberflächen, die eine einfache Handhabung der komplexen Funktionalitäten ermöglichen. Zusätzlich zielt die Arbeit darauf ab, die Grenzen und Herausforderungen von WebXR in Bezug auf die Entwicklung von AR-Anwendungen zu erforschen und Lösungsansätze für identifizierte Probleme zu erarbeiten. Dies umfasst die Optimierung von Performance und Benutzererfahrung unter Berücksichtigung der technischen Einschränkungen und Möglichkeiten, die der WebXR-Standard mit sich bringt.
+Zur Begründung der Wahl von WebXR als Entwicklungsplattform wird eine Analyse aktueller Technologien und Lösungen im Bereich der AR durchgeführt.
+Diese Analyse zielt darauf ab, die Relevanz und Eignung von WebXR für AR-Anwendungen zu klären.
+
+Die entwickelte Anwendung wird hinsichtlich ihrer Usability und User Experience evaluiert.
+Diese Evaluation soll die Effektivität und die Benutzerfreundlichkeit der Implementierung verifizieren.
+
+Abschließend werden die Ergebnisse der Evaluation reflektiert und ein Ausblick auf zukünftige Entwicklungen im Bereich der AR-Konstruktionstechnologien gegeben.
+Dies soll einen Überblick über mögliche Weiterentwicklungen und Verbesserungen bieten.
