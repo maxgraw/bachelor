@@ -55,7 +55,6 @@ Implementierung:
 4.3 Wahl der Technik
 
 5. Implementierung
-5.1 
 
 6. Evaluation der Anwendung
 6.1 Zielsetzung
