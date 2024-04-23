@@ -1,7 +1,5 @@
-In der wissenschaftlichen Literatur variieren die Definitionen von Augmented Reality, wobei häufig Ronald Azumas Charakterisierung herangezogen wird. Azuma definiert AR durch drei Kernmerkmale: 
+In der wissenschaftlichen Literatur finden sich verschiedene Definitionen von Augmented Reality, wobei Ronald Azumas Definition häufig als Referenzpunkt dient. Azuma charakterisiert Augmented Reality durch drei wesentliche Merkmale. Die Kombination von realen und virtuellen Elementen, die Interaktion in Echtzeit sowie den 3D-Bezug zwischen realen und virtuellen Objekten. @azuma-survey
 
-- Kombination realer und virtueller Elemente
-- Echtzeitinteraktion
-- 3D Bezug von realen und virtuellen Objekten
+Darüber hinaus erweitert Azuma diese technische Definition, indem er erläutert, dass Augmented Reality es dem Nutzer ermöglicht, seine reale Umgebung weiterhin wahrzunehmen, während gleichzeitig virtuelle Inhalte und Objekte hinzugefügt werden. Diese virtuellen Ergänzungen bereichern die reale Welt, ohne sie vollständig zu ersetzen, wie es bei der virtuellen Realität der Fall wäre. Azumas Ansatz betont somit die subtile Integration von Augmentierungen in die Wahrnehmung der realen Welt, die das Erlebnis des Nutzers erweitert und vertieft. @azuma-survey
 
-Eine ergänzende Definition von Ralf Dörner beschreibt Augmented Reality als eine Technologie, die die reale Umgebung eines Benutzers durch die Integration digital generierter Informationen oder Objekte in Echtzeit erweitert, wobei virtuelle Inhalte über die natürliche Welt gelegt werden, um eine verschmolzene Ansicht zu erzeugen @ralf-doener-2013.
+In Ergänzung dazu bietet Ralf Dörner eine weitere Perspektive, indem er Augmented Reality als eine Technologie definiert, die die reale Umgebung eines Benutzers durch die Integration digital generierter Informationen oder Objekte in Echtzeit erweitert. Hierbei werden virtuelle Inhalte über die natürliche Welt gelegt, um eine verschmolzene Ansicht zu erzeugen. Dörners Definition ergänzt Azumas Erklärungen, indem sie die praktische Anwendung und die dynamische Interaktion zwischen Nutzer und augmentierter Umgebung betont. @vr-ar-doener

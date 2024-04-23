@@ -22,10 +22,16 @@
 == Vorgehensweise
 #include "1-introduction/3-method.typ"
 
-= Begriffserklärung
-#include "2-basics/0-index.typ"
+= Augmented Reality
+#include "2-ar/0-index.typ"
 
-== Augmented Reality
-#include "2-basics/1-ar.typ"
+== Begriffsabgrenzung
+#include "2-ar/1-expression.typ"
+
+== Definition
+#include "2-ar/2-definition.typ"
+
+== Prozess
+#include "2-ar/3-pipeline.typ"
 
 #bibliography("bib.yml")
