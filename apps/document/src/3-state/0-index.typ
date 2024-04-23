@@ -1,0 +1,1 @@
+In diesem Abschnitt wird der aktuelle Stand der Technik im Bereich der Augmented Reality Technologien dargelegt. Der Schwerpunkt liegt auf den Entwicklungsumgebungen und Frameworks, die für die Konzeption einer AR-Konstruktionsumgebung für Möbelsysteme nutzbar sind.
