@@ -13,6 +13,7 @@
   set document(author: author, title: title)
   set text(font: "Linux Libertine", lang: "de")
   set heading(numbering: "1.1")
+  set text(12pt)
 
   set align(center)
 

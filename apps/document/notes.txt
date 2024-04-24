@@ -3,6 +3,36 @@
 
 !!!!!!!!!!!!! WebXR wahl hervorheben
 
+Formalien:
+12pt
+
+
+Eidestattliche Erklärung
+"Gendern"
+Abstract
+Kurzfassung
+
+Inhaltsverzeichnis
+
+Abbildungsverzeichnis
+Tabellenverzeichnis
+
+Fokus dieser Arbeit liegt auf Konzeption und Entwicklung der Applikation -> deswegen WebXR nicht vergleichen
+
+Titel der Kapitel ausarbeiten also länger
+
+Alles Begründen
+
+Also auch Tracking -> move to Stand der Technik
+
+Tracking arten -> Stand der Technik -> Unterschiede hervorheben
+
+Theorie -> spezifizieren
+
+Viele Tracking verfahren -> über Anforderungen filtern
+
+-> tracking algorthem ist am fortschrittlichsten
+
 1. Einleitung
 1.1 Motivation
 1.2 Ziel
@@ -17,6 +47,10 @@
 2.2 Definition
 2.3 Pipeline
 2.4 Anwendungsgebiete
+
+Marktanalyse für auswahl der Technik.
+
+Im ausblick mehr Frameworks vergleichen
 
 3. Stand der Technik
 ??? Theoretischer Stand der Technik?
