@@ -8,6 +8,10 @@
 1.2 Ziel
 1.3 Aufbau
 
+2. Begriffe
+2.1 Augmented Reality
+2.2 Web Component
+
 2. Augmented Reality
 2.1 Herleitung
 2.2 Definition
