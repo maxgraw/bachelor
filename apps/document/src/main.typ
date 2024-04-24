@@ -53,7 +53,7 @@
 #include "3-state/1-frameworks/0-index.typ"
 === Apple
 #include "3-state/1-frameworks/1-apple.typ"
-=== ARCore
+=== Google
 #include "3-state/1-frameworks/2-arcore.typ"
 === Unity
 #include "3-state/1-frameworks/3-unity.typ"

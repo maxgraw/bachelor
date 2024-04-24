@@ -1,0 +1,7 @@
+WebXR ist eine API, die die Integration von Virtual Reality und Augmented Reality in Webanwendungen ermöglicht. Sie stellt eine wichtige Weiterentwicklung in der Bereitstellung immersiver Erfahrungen auf einer Vielzahl von Geräten dar, einschließlich VR- und AR-fähigen Headsets, mobilen Geräten und Desktop-Computern. Diese API ermöglicht es Entwicklern, interaktive 3D-, VR- und AR-Erlebnisse direkt über einen Webbrowser zu erstellen und zu verteilen, ohne dass zusätzliche Software oder Hardware erforderlich ist.
+
+WebXR bietet eine Plattform-unabhängige Lösung, die die Schaffung von AR- und VR-Erfahrungen vereinfacht und die Zugänglichkeit und Verbreitung dieser Technologien erweitert. Durch die Verwendung von Webstandards können Entwickler reichhaltige interaktive Erlebnisse schaffen, die über das einfache Anzeigen von 2D-Webseiten hinausgehen.
+
+Die API unterstützt sowohl die Einbindung von virtuellen Objekten in die reale Welt als auch die Schaffung vollständig immersiver VR-Umgebungen. Entwickler können räumliche Informationen nutzen, um Erlebnisse zu schaffen, die mit der physischen Umgebung des Benutzers interagieren, was besonders nützlich für Anwendungen wie E-Commerce, Bildung und Fernarbeit ist.
+
+Durch die Verwendung von WebXR können Entwickler und Unternehmen die Vorteile von AR und VR nutzen, ohne auf spezifische Plattformen oder Geräte beschränkt zu sein. Dies öffnet die Tür für eine breitere Akzeptanz und Anwendung von AR- und VR-Technologien in alltäglichen Szenarien und fördert die Entwicklung neuer innovativer Anwendungen.
