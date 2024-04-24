@@ -70,15 +70,15 @@
 == Wahl der Technik
 
 = Implementierung
-branch implementation-v0
+== Softwarearchitektur
+== Technische Grundlagen
+== ?
 
 = Evaluation
-branch evaluation-v0
 == Zielsetzung
 == Methodik
 == Ergebnisse
 
 = Ausblick und Fazit
-branch conclusion-v0
 
 #bibliography("bib.yml")

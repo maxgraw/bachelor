@@ -1,6 +1,8 @@
 
 !!!!!!!!!!!!!betrachtung als Endnutzer und als Entwickler
 
+!!!!!!!!!!!!! WebXR wahl hervorheben
+
 1. Einleitung
 1.1 Motivation
 1.2 Ziel
