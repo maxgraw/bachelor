@@ -62,9 +62,11 @@
 == Applikation
 
 = Konzeptentwicklung
-branch concept-v0
-== Zielgruppendefinition
+#include "4-concept/0-index.typ"
+== Definition der Zielgruppe
+#include "4-concept/1-group.typ"
 == Anforderungsanalyse
+#include "4-concept/2-requirement.typ"
 == Wahl der Technik
 
 = Implementierung

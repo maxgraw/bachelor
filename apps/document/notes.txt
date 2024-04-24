@@ -1,35 +1,5 @@
-Stand der Technik:
 
-- Frameworks
---> Unity
---> WebXR
-
-- Applikation
---> Ikea
-
-Wahl der Technik:
-Mit Grundlage auf Titel und Einleitung. Wieso WebXR vorteile bietet. Wahl des Frameworks begründen
-
-Implementierung:
-...
-
-- Einleitung
-- Begriffserklärung
-- Stand der Technik
-- Wahl der Technik
-- Implementierung
-- Studie
-- Fazit
-
-1. ARKit
-
-2. ARCore
-
-3. Unity (AR Foundation / Unity Mars)
-
-4. OpenXR
-
-
+!!!!!!!!!!!!!betrachtung als Endnutzer und als Entwickler
 
 1. Einleitung
 1.1 Motivation
@@ -43,6 +13,7 @@ Implementierung:
 2.4 Anwendungsgebiete
 
 3. Stand der Technik
+??? Theoretischer Stand der Technik?
 3.1 Frameworks
 3.1.1 ARKit
 3.1.2 ARCore
@@ -62,3 +33,5 @@ Implementierung:
 6.3 Ergebnisse
 
 7. Ausblick und Fazit
+
+!!!!!!!!!!!!!betrachtung als Endnutzer und als Entwickler
