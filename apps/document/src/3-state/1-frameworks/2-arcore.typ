@@ -1,0 +1,9 @@
+Im Bereich der Augmented Reality Anwendungen bietet Google mit ARCore ein entscheidendes Framework, das Entwicklern fortschrittliche Werkzeuge zur Verfügung stellt, um immersive AR-Erlebnisse zu entwickeln. Dieses Technologieangebot ist besonders wichtig in der AR-Entwicklung, vor allem durch seine Implementierung im Android-Betriebssystem.
+
+Eingeführt im Jahr 2017, ermöglicht ARCore die Entwicklung von Augmented Reality-Erlebnissen für Android-Geräte. Es nutzt die Kamera, Sensoren und Software auf Android-Smartphones, um die reale Umgebung des Nutzers zu verstehen und darauf digitale Inhalte zu platzieren. Eine der Hauptfunktionen von ARCore ist das Bewegungstracking, welches es der Anwendung ermöglicht, die Position und Orientierung des Geräts im Raum zu verstehen.
+
+ARCore unterstützt zudem die Umgebungserkennung, die es Entwicklern ermöglicht, Oberflächen wie Böden und Tische zu erkennen, auf denen AR-Objekte platziert werden können. Die Plattform bietet auch die Lichtschätzung, die es digitalen Objekten erlaubt, ihre Beleuchtung entsprechend der Umgebung anzupassen und somit eine konsistente Integration in die reale Welt sicherzustellen.
+
+Neben den Kernfunktionen bietet ARCore zusätzliche Funktionen, die für eine tiefere Immersion und Interaktivität in AR-Szenen sorgen. Dazu gehören Augmented Images, die es ermöglichen, digitale Informationen auf physische Objekte zu projizieren, sobald die Kamera sie erfasst. Ein weiteres Merkmal ist Augmented Faces, das Entwicklern die Möglichkeit bietet, interaktive Masken und Effekte für Gesichter in Echtzeit zu erstellen.
+
+ARCore wurde auch mit weiteren Google-Diensten und -APIs integriert, wie zum Beispiel mit der Google Maps API, um AR-Navigation und -Erlebnisse in der realen Welt zu ermöglichen, was die Anwendungsbereiche der Plattform erweitert.

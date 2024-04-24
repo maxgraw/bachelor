@@ -1,5 +1,0 @@
-Ikea:
-
-Wayfair:
-
-Houzz:

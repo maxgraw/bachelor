@@ -48,12 +48,17 @@
 #include "2-ar/3-pipeline.typ"
 
 = Stand der Technik
-branch state-v0
+#include "3-state/0-index.typ"
 == Frameworks
-=== ARKit
-=== ARCore
+#include "3-state/1-frameworks/0-index.typ"
+=== Apple
+#include "3-state/1-frameworks/1-apple.typ"
+=== Google
+#include "3-state/1-frameworks/2-arcore.typ"
 === Unity
+#include "3-state/1-frameworks/3-unity.typ"
 === WebXR
+#include "3-state/1-frameworks/4-webxr.typ"
 == Applikation
 
 = Konzeptentwicklung
