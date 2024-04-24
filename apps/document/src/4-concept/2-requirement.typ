@@ -1,22 +1,25 @@
-Auf Basis der Ziele und definition der Zielgruppen, lassen sich Anforderungen an die Anwendung ableiten. Hierbei kann zwischen funktionalen und nicht-funktionalen Anforderungen unterschieden werden. Desweiteren sind manche Anforderungen nur für bestimmte Zielgruppen relevant.
+Um die Anforderungen an die Anwendung zu definieren, wurden zunächst die zuvor definierten Ziele der Arbeit analysiert. Anschließend wurde auf Grundlage der Zielgruppenanalyse weitere Anforderungen abgeleitet. Die gesammlten Anforderungen wurden zunächst gewichtet und nummeriert. Thematisch lassen sich die Anforderungen in funktionale und nicht-funktionale Anforderungen unterteilen.
 
-Visualisierung von 3D-Modellen:
+=== Funktionale Anforderungen
+Die nachfolgende Aufzählung funktionaler Anforderungen beschreibt die Funktionalitäten, die die Anwendung bereitstellen soll.
+
+==== Bereitgestellte 3D-Modelle sollen in der AR-Umgebung visualisiert werden
 Die Anwendung soll in der Lage sein, 3D-Modelle innerhalb der AR-Umgebung zu visualisieren. Dies umfasst die korrekte Darstellung der Modelle in Bezug auf Skalierung, Perspektive und physikalische Konsistenz mit der realen Umgebung.
 
-Menü zum Hinzufügen von 3D-Modellen:
+==== 3D-Modelle sollen interaktiv hinzugefügt werden können
 Die Anwendung soll ein Menü bereitstellen, welches die Auswahl und Hinzufügung von verfügbaren 3D-Modellen ermöglicht. Nutzer können aus einer Liste von Modellen wählen und diese in der AR-Umgebung platzieren.
 
-Menü zum Löschen von 3D-Modellen:
+==== 3D-Modelle sollen interaktiv entfernt werden können
 Es soll ein Menü implementiert werden, das es Nutzern ermöglicht, 3D-Modelle aus der Szene zu entfernen.
 
-3D-Modelle sind stackbar:
+==== 3D-Modelle sollen gestapelt werden können
 Die Anwendung soll es ermöglichen, mehrere 3D-Modelle in der AR-Umgebung zu stapeln. Dies bedeutet, dass Nutzer Modelle übereinander platzieren können, um komplexe Strukturen und Designs zu erstellen.
 
-Menü zum Anpassen von 3D-Modellen:
+==== 3D-Modelle sollen bearbeitet werden können
 Ein weiteres Menü soll Funktionen zur Bearbeitung von 3D-Modellen bereitstellen. Dazu gehören Optionen wie das Verschieben, Rotieren und Skalieren von Modellen innerhalb der AR-Umgebung, um eine präzise Platzierung und Anpassung zu gewährleisten.
 
-Speicherung des Zustands beim Schließen:
+==== Veränderte Parameter von 3D-Modellen sollen gespeichert werden
 Die Anwendung soll fähig sein, den aktuellen Zustand der AR-Umgebung beim Schließen zu speichern. Dies beinhaltet alle hinzugefügten und bearbeiteten 3D-Modelle sowie deren Positionierung und Zustand.
 
-Wiederherstellung des Zustands beim Öffnen:
-Beim erneuten Öffnen der Anwendung soll der gespeicherte Zustand der AR-Umgebung wiederhergestellt werden. Nutzer können somit genau dort weitermachen, wo sie aufgehört haben, ohne Neukonfiguration.
+==== Die ausgewählten 3D-Modelle und Parameter sollen exportiert werden können
+Nutzer sollen die Möglichkeit haben, die erstellten Designs und Modelle zu exportieren. Dies umfasst die Speicherung der 3D-Modelle in einem gängigen Dateiformat sowie die Exportierung der Parameter zur späteren Wiederverwendung.

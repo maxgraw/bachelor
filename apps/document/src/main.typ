@@ -16,7 +16,7 @@
   v(12pt, weak: true)
   strong(it)
 }
-#outline(indent: auto)
+#outline(indent: auto, depth: 2)
 #pagebreak()
 
 
