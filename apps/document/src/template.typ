@@ -15,6 +15,7 @@
   set heading(numbering: "1.1")
   set text(12pt)
   set page(margin: (top: 3cm, left: 2.5cm, right: 2.5cm, bottom: 3.5cm))
+  set figure(gap: 1cm)
 
   set align(center)
 
