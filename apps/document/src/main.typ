@@ -10,15 +10,10 @@
   logo: image("./media/HRW_LOGO.jpg", width: 40%),
 )
 
-#show outline.entry.where(
-  level: 1
-): it => {
-  v(12pt, weak: true)
-  strong(it)
-}
-#outline(indent: auto, depth: 2)
-#pagebreak()
-
+#include "0-base/1-oath.typ"
+#include "0-base/2-abstract.typ"
+#include "0-base/3-short.typ"
+#include "0-base/4-outline.typ"
 
 #set page(numbering: "1", number-align: right)
 #counter(page).update(1)
