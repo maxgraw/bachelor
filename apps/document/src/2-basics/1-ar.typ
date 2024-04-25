@@ -1,0 +1,18 @@
+Das "Reality-Virtuality Continuum", ursprünglich von Paul Milgram und Fumio Kishino konzipiert, bietet einen Rahmen zur Unterscheidung zwischen realen und virtuellen Umgebungen. Am einen Ende des Kontinuums liegt die vollständig reale Umgebung, die unverändert und unbeeinflusst von digitalen Einflüssen bleibt. Am gegenüberliegenden Ende des Spektrums befindet sich die vollständig virtuelle Realität. Innerhalb dieses Kontinuums befindet sich die Mixed Reality, die weiter in Augmented Reality und Augmented Virtuality unterteilt wird. Die Zuordnng entlang dieses Kontinuums basiert auf dem Anteil der realen Welt sowie virtuellen Elemente. Augmented Reality zeichnet sich durch einen überwiegenden Anteil realer Elemente aus, während bei Augmented Virtuality die virtuellen Komponenten dominieren. @ar-milgram 
+
+In der wissenschaftlichen Literatur finden sich verschiedene Definitionen von Augmented Reality, wobei Ronald Azumas Definition häufig als Referenzpunkt dient. Azuma charakterisiert Augmented Reality durch drei wesentliche Merkmale. Die Kombination von realen und virtuellen Elementen, die Interaktion in Echtzeit sowie den 3D-Bezug zwischen realen und virtuellen Objekten. @azuma-survey
+
+Darüber hinaus erweitert Azuma diese technische Definition, indem er erläutert, dass Augmented Reality es dem Nutzer ermöglicht, seine reale Umgebung weiterhin wahrzunehmen, während gleichzeitig virtuelle Inhalte und Objekte hinzugefügt werden. Diese virtuellen Ergänzungen bereichern die reale Welt, ohne sie vollständig zu ersetzen, wie es bei der virtuellen Realität der Fall wäre. Azumas Ansatz betont somit die subtile Integration von Augmentierungen in die Wahrnehmung der realen Welt, die das Erlebnis des Nutzers erweitert und vertieft. @azuma-survey
+
+Ralf Döner hebt bei seiner Definition von Augmented Reality hervor, dass es sich beim Prozess der Augmentierung um keinen statischen, sonder einen kontinuierlichen und anpassbaren Vorgang handelt. Hierbei lässt sich der Prozess der Augmentierten Realität nach Döner in einen Prozess, bestehend aus fünf grundlegende Schritte gliedern. 
+
+Der Prozess beginnt mit einer Aufnahme der Realiät. Die technische Grundlage hierfür können sowohl eine Videokamera als z.B. auch ein Head-Mounted Display sein. Es folgt das Tracking, das die Position und Orientierung des Benutzers oder spezifischer Objekte im Raum bestimmt. Der dritte Schritt ist die Registrierung, bei der die virtuellen Inhalte mittels der Tracking-Daten mit der Realität abgeglichen werden. Anschließend erfolgt die Darstellung, bei der die virtuellen Inhalte visualisiert werden. Diese müssen perspektivisch korrekt in das reale Bildmaterial integriert werden, um eine nahtlose Überlagerung zu gewährleisten. Der letzte Schritt ist die Ausgabe, bei der die augmentierten Bilder dem Benutzer über ein Ausgabegerät präsentiert werden.
+
+Die in Abbildung 1 dargestellten Schritte reflektieren Döners Ansatz und werden durch zusätzliche Punkte von Shaveta Dargan ergänzt. Der Prozess wird um den Schritt der Mensch-Maschinen-Interaktion erweitert und folgt auf den Schritt der Darstellung. Zusätzlich wird der Nutzer als Teil des Prozesses integriert, positioniert am Ende des Systems, wo er über das zuvor definierte System der Mensch-Maschinen-Interaktion mit dem Prozess interagiert.
+
+Durch die Integration der Interaktion und des Nutzers wird die interaktive und anpassbare Natur des Augmented-Reality-Systems verdeutlicht. Döner betont, dass diese Anpassungsfähigkeit ein entscheidender Aspekt in der Definition von Augmented Reality ist.
+
+#figure(
+  image("../media/ar-pipeline.png", width: 100%),
+  caption: [Prozess der Augmentierten Realität],
+)

@@ -1,0 +1,3 @@
+Web Components sind eine Sammlung von Web-Plattform-APIs, die es Entwicklern ermöglichen, gekapselte, wiederverwendbare Widgets oder Komponenten in Webdokumenten und Webanwendungen zu erstellen. Diese Komponenten sind Bestandteil des Webstandards und können ohne zusätzliche Bibliotheken oder Frameworks verwendet werden.
+
+Web Components bestehen aus drei Haupttechnologien. "Custom Elements" erlauben die Definition neuer HTML-Elemente. "Shadow DOM" gewährleistet, dass Styles und Skripte der Komponenten von anderen Elementen der Seite isoliert bleiben und diese nicht beeinflussen. Das "<template>-Tag" wird genutzt, um HTML-Markup zu definieren, das nicht aktiv ist, bis es durch JavaScript instanziiert wird.

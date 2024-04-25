@@ -30,20 +30,22 @@
 == Vorgehensweise
 #include "1-introduction/3-method.typ"
 
-= Augmented Reality
-#include "2-ar/0-index.typ"
+= Grundlagen
+#include "2-basics/0-index.typ"
 
-== Begriffsabgrenzung
-#include "2-ar/1-expression.typ"
+== Augmented Reality
+#include "2-basics/1-ar.typ"
 
-== Definition
-#include "2-ar/2-definition.typ"
+== Web Component
+#include "2-basics/2-component.typ"
 
-== Prozess
-#include "2-ar/3-pipeline.typ"
+== XR
+#include "2-basics/3-xr.typ"
 
 = Stand der Technik
 #include "3-state/0-index.typ"
+
+== Trackingverfahren
 == Frameworks
 #include "3-state/1-frameworks/0-index.typ"
 === Apple

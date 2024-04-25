@@ -1,8 +1,0 @@
-Der Prozess der Augmentierten Realität lässt sich nach Döner in fünf grundlegende Schritte gliedern. Zunächst beginnt der Vorgang mit der Videoaufnahme, bei der die Umgebung bildlich erfasst wird. Es folgt das Tracking, das die Position und Orientierung des Benutzers oder spezifischer Objekte im Raum bestimmt. Hierbei werden zwei Methoden unterschieden. Beim „Inside-Out-Tracking“ sind die messenden Sensoren am Gerät selbst angebracht, während beim „Outside-In-Tracking“ die Sensoren in der Umgebung positioniert sind. Der dritte Schritt ist die Registrierung, bei der die virtuellen Inhalte mittels der Tracking-Daten mit der Realität abgeglichen werden. Dies ermöglicht es beispielsweise, Positionsdaten von virtuellen Objekten in der realen Welt zu lokalisieren. Anschließend erfolgt die Darstellung, bei der die virtuellen Inhalte visualisiert werden. Diese müssen perspektivisch korrekt in das reale Bildmaterial integriert werden, um eine nahtlose Überlagerung zu gewährleisten. Teilweise ist hierfür eine Anpassung der Auflösung und Schärfe des virtuellen Bildes erforderlich. Der letzte Schritt ist die Ausgabe, bei der die augmentierten Bilder dem Benutzer über ein Ausgabegerät präsentiert werden. @vr-ar-doener
-
-Die von Döner beschriebenen Schritte der Augmentierten Realität werden in Abbildung 1 durch zusätzliche Aspekte von Shaveta Dargan ergänzt. Zunächst wird der Benutzer als entscheidender Schritt hinzugefügt, der das System betrachtet und verwendet. Des Weiteren wird die Darstellung um den Aspekt der Interaktion erweitert, der die Möglichkeit zur Steuerung der virtuellen Inhalte durch den Benutzer beschreibt. @ar-review
-
-#figure(
-  image("../media/ar-pipeline.png", width: 100%),
-  caption: [Prozess der Augmentierten Realität],
-)
