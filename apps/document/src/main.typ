@@ -46,17 +46,13 @@
 #include "3-state/0-index.typ"
 
 == Trackingverfahren
+#include "3-state/1-tracking.typ"
 == Frameworks
-#include "3-state/1-frameworks/0-index.typ"
-=== Apple
-#include "3-state/1-frameworks/1-apple.typ"
-=== Google
-#include "3-state/1-frameworks/2-arcore.typ"
-=== Unity
-#include "3-state/1-frameworks/3-unity.typ"
-=== WebXR
-#include "3-state/1-frameworks/4-webxr.typ"
-== Applikation
+#include "3-state/2-frameworks.typ"
+== WebXR
+#include "3-state/3-webxr.typ"
+== Applikationen
+#include "3-state/4-applications.typ"
 
 = Konzeptentwicklung
 #include "4-concept/0-index.typ"
