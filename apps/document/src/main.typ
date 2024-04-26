@@ -45,10 +45,8 @@
 = Stand der Technik
 #include "3-state/0-index.typ"
 
-== Trackingverfahren
+== Tracking
 #include "3-state/1-tracking.typ"
-== Frameworks
-#include "3-state/2-frameworks.typ"
 == WebXR
 #include "3-state/3-webxr.typ"
 == Applikationen

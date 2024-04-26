@@ -1,7 +1,43 @@
-
 !!!!!!!!!!!!!betrachtung als Endnutzer und als Entwickler
 
 !!!!!!!!!!!!! WebXR wahl hervorheben
+
+Tracking in Augmented Reality
+- Einleitung
+- Grundlagen
+- Inertial Sensors
+- Slam
+- Slam mit Inertial
+
+Stand der Technik
+- Tracking
+
+- Hardware
+
+- Interaktion
+
+- Schnittstellen:
+- Klarstellung das Fokus auf WebXR liegt
+- Für bessere verständis trotzdem andere Frameworks erwähnen
+- Begründung der Auswahl von Webxr damit Begründen
+- WebXR Umsetzung in Fazit in Bezug auf die anderen Frameworks kritisch betrachten
+
+- WebXR:
+- WebXR API
+- WebXR Device API
+- WebXR Hit Test API
+- WebXR Hand Input API
+- WebXR Anchors API
+- WebXR Layers API
+
+- WebXR Frameworks:
+- A-Frame
+- Babylon.js
+- Three.js
+
+- Applikationen
+- Ikea Place
+
 
 Formalien:
 12pt
