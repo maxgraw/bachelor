@@ -6,11 +6,18 @@ Tracking in Augmented Reality
 - Einleitung
 - Grundlagen
 - Inertial Sensors
+- Computer Vision
+- SfM
 - Slam
-- Slam mit Inertial
 
 Stand der Technik
-- Tracking
+Tracking in Augmented Reality
+- Einleitung
+- Grundlagen
+- Inertial Sensors
+- Computer Vision
+- SfM
+- Slam
 
 - Hardware
 
