@@ -1,24 +1,24 @@
-Tracking bezieht sich auf Technologien und Methoden, um die Position und Orientierung von Objekten in Echtzeit zu bestimmen. Dies kann sowohl reale als auch virtuelle Objekte umfassen. Das Ziel des Trackings in der AR ist es, eine nahtlose Interaktion zwischen der realen Welt und digital ergänzten Inhalten zu gewährleisten.
+Tracking umfasst den Einsatz von Technologien und Verfahren zur Bestimmung von Position und Orientierung sowohl physischer als auch virtueller Objekte. Hierbei muss das System in der Lage sein, die Bewegungen des Benutzers und der Umgebung präzise zu erfassen, um eine erfolgreiche Transformation von virtuellen Objekten durchzuführen.
 
-Für eine effektive AR-Anwendung muss das System in der Lage sein, die Bewegungen des Benutzers und der Umgebung präzise zu erfassen und die virtuellen Objekte entsprechend anzupassen, um eine kohärente und immersivere Erfahrung zu bieten. Dies umfasst das Erkennen und Verfolgen von räumlichen Referenzpunkten, Gesichtern, Gesten oder speziellen Markern.
-
-In diesem Kapitel werden wir die verschiedenen Tracking-Technologien und -Methoden untersuchen, die in modernen AR-Systemen zum Einsatz kommen. Dazu gehören optisches Tracking, sensorbasiertes Tracking und hybride Ansätze, die mehrere Sensordaten kombinieren, um eine höhere Genauigkeit und Robustheit in verschiedenen Umgebungen zu erreichen.
+In diesem Kapitel werden wir die verschiedenen Tracking-Technologien und -Methoden untersuchen, die in modernen AR-Systemen zum Einsatz kommen. Dazu gehören optisches Tracking, sensorbasiertes Tracking und hybride Ansätze, die mehrere Sensordaten kombinieren.
 
 === Grundlagen
-Zunächst ist die Definition der relevanten Koordinatensysteme erforderlich. Es gibt das Koordinatensystem des AR-Geräts, beispielsweise eines Smartphones oder einer AR-Brille, sowie das globale Koordinatensystem, das die physische Umgebung abbildet. Die Position des Augmented Reality Gerätes im globalen Koordinatensystem wird durch eine Rotationsmatrix $R_"ba"$ und einen Translationsvektor $b_a$ beschrieben. Die gewünschte Position eines virtuellen Objekts wird relativ zum AR-Gerät definiert. Um die tatsächliche Position des virtuellen Objekts im globalen Koordinatensystem zu berechnen, wird die relative Position des Objekts, angegeben durch einen Vektor $m_a$ im Koordinatensystem des Geräts, mit der Rotationsmatrix des Geräts multipliziert und dann der Translationsvektor hinzugefügt.
+Um die grundlegende Transformation durchzuführen müssen zunächst alle relevanten Koordinatensystem definiert werden. Das globale Koordinatensystem, welches die Position und Ausrichtung seiner Elemente in der Realität darstellt, und das Koordinatensystem des Augmented-Reality-Geräts, welches die Position und Ausrichtung innerhalb der virtuellen Realität repräsentiert. Das Augmented-Reality-Gerät besitzt sowohl im eigenen als auch im globalen System eine definierte Position und Ausrichtung. 
+
+Die Position des Augmented-Reality-Geräts im globalen Koordinatensystem wird durch eine Rotationsmatrix $R_"ba"$ und einen Translationsvektor $b_a$ bestimmt. Die gewünschte Position eines virtuellen Objekts ist relativ zum Gerät definiert. Zur Berechnung der tatsächlichen Position im globalen System wird die relative Objektposition $m_a$ mit der Rotationsmatrix multipliziert und der Translationsvektor hinzugefügt.
 
 $ m_b = R_"ba" m_a + a_b $
-
-Der Translationsvektor $a_b$ in der Gleichung ist entscheidend für die korrekte Platzierung des virtuellen Objekts im globalen Koordinatensystem. Er leitet sich aus dem ursprünglichen Translationsvektor $b_a$ ab, der die Verschiebung des Ursprungs des Koordinatensystems des AR-Geräts relativ zum globalen Koordinatensystem beschreibt.
 
 Um $a_b$ zu bestimmen, verwendet man die negative Transformation des Vektors $b_a$ durch die Rotationsmatrix $R_"ba"$. Dieser Schritt ist notwendig, um die ursprüngliche Verschiebung des AR-Geräteursprungs im globalen Koordinatensystem rückgängig zu machen.
 
 $ a_b = -R_"ba"b_a $
 
-Dadurch wird gewährleistet, dass die Position des virtuellen Objekts korrekt, relativ zum globalen Ursprung und nicht zum verschobenen Ursprung des Geräts, berechnet wird. Diese Transformation ermöglicht die präzise Einbettung der Objektkoordinaten in die reale Welt.
+Diese Korrektur des Translationsvektors stellt sicher, dass das virtuelle Objekt korrekt relativ zum globalen Ursprung positioniert wird und nicht zum verschobenen Ursprung des AR-Geräts.
 
-=== Inertialsensoren
-Inertialsensoren wie Beschleunigungsmesser, Gyroskope und Magnetometer werden oft zusätzlich zu visuellen Sensoren in AR-Tracking-Systemen verwendet. Diese Sensoren messen Bewegungen ohne externe Referenzen und sind in einer Inertialmess-Einheit (IMU) kombiniert. Die Sensororientierung wird über Beschleunigungsmesser und Gyroskopdaten relativ zu einem globalen Koordinatensystem, das gegen die Schwerkraft und zum magnetischen Nordpol ausgerichtet ist, bestimmt.
+=== Inertial
+Inertialtracking ist ein schnelles und robustes Verfahren, das die Bewegung eines Geräts messen kann. Dieses Verfahren kommt ohne externe Referenzen aus, was einen klaren Vorteil gegenüber visuellen Sensoren darstellt, deren Effizienz stark von externen Faktoren beeinflusst wird. Das System setzt sich typischwereise aus einer Komibination von Beschleunigungsmessern, Gyroskopen und Magnetometern zusammen, die in einer Inertialmess-Einheit (IMU) integriert sind. Der Beschleunigungsmesser erfasst die lineare Beschleunigung des Geräts, wodurch die Orientierung und deren Veränderung in Bezug zur Erde bestimmt werden können. Das Gyroskop misst die Rotations- oder Winkelgeschwindigkeit des Geräts und ermöglicht so die Bestimmung der Drehbewegung. Der Magnetometer misst das Magnetfeld des Geräts und ermöglicht die Bestimmung der Ausrichtung des Geräts relativ zum magnetischen Nordpol.
+
+!https://www.researchgate.net/publication/3950848_Inertial_tracking_for_mobile_augmented_reality
 
 === Computer Vision
 Computer Vision ist ein zentraler Bestandteil von AR-Tracking-Systemen. Es umfasst Techniken zur Erkennung, Verfolgung und Analyse von Bildern und Videos. Computer Vision-Algorithmen werden verwendet, um visuelle Merkmale in Echtzeit zu erkennen und zu verfolgen, um die Position und Orientierung von Objekten zu bestimmen. Dazu gehören Techniken wie Feature Detection, Feature Matching, Optical Flow und Structure from Motion (SfM).
