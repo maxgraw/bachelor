@@ -21,55 +21,22 @@
 = Einleitung
 #include "1-introduction/0-index.typ"
 
-== Motivation
-#include "1-introduction/1-motivation.typ"
-
-== Ziel
-#include "1-introduction/2-goal.typ"
-
-== Vorgehensweise
-#include "1-introduction/3-method.typ"
-
 = Grundlagen
 #include "2-basics/0-index.typ"
-
-== Augmented Reality
-#include "2-basics/1-ar.typ"
-
-== Web Component
-#include "2-basics/2-component.typ"
-
-== XR
-#include "2-basics/3-xr.typ"
 
 = Stand der Technik
 #include "3-state/0-index.typ"
 
-== Tracking
-#include "3-state/1-tracking.typ"
-== WebXR
-#include "3-state/3-webxr.typ"
-== Applikationen
-#include "3-state/4-applications.typ"
-
 = Konzeptentwicklung
 #include "4-concept/0-index.typ"
-== Definition der Zielgruppe
-#include "4-concept/1-group.typ"
-== Anforderungsanalyse
-#include "4-concept/2-requirement.typ"
-== Wahl der Technik
 
 = Implementierung
-== Softwarearchitektur
-== Technische Grundlagen
-== ?
+#include "5-implementation/0-index.typ"
 
 = Evaluation
-== Zielsetzung
-== Methodik
-== Ergebnisse
+#include "6-evaluation/0-index.typ"
 
 = Ausblick und Fazit
+#include "7-conclusion/0-index.typ"
 
 #bibliography("bib.yml")

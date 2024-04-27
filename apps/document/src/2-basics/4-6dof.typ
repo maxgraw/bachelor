@@ -1,0 +1,1 @@
+Um eine allgemeine Notation zu verwenden, wird die Position eines Objekts im globalen Koordinatensystem als 6DoF Pose bezeichnet. 6DoF steht für sechs Freiheitsgrade, die die Position und Orientierung eines Objekts im Raum beschreiben. Diese sechs Bewegungen zusammen geben einem System oder einem Objekt die Fähigkeit, seine vollständige Pose im Raum zu steuern.
