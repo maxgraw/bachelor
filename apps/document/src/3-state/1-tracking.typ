@@ -34,7 +34,11 @@ Der Prozess der Detektion kann weiterhin optimiert werden, indem Vorwissen über
 === Structure from Motion
 SfM stellt ein zentrales Verfahren innerhalb der Computer Vision dar. Hierbei werden simultan Kameraposition sowie die Struktur der Szene aus einer Sequenz an Bildern bestimmt. Ein Standardansatz für SfM umfasst drei Hauptmodule. Ein Feature-Matching- oder Tracking-Modul, das Korrespondenzen zwischen den Bildern etabliert, ein Pose-Schätzungsmodul, das die aktuelle Kameraposition basierend auf verfügbaren Informationen zur 3D-Struktur bestimmt, und ein Mapping-Modul, das die 3D-Struktur mithilfe multipler Ansichten der erfassten Merkmale rekonstruiert. Eine wesentliche Herausforderung bei der Anwendung von SfM ist die Drift-Akkumulation, die aus kleinen Fehlern in der Pose-Schätzung resultiert und größere Ungenauigkeiten in der 3D-Strukturschätzung nach sich ziehen kann. Um diese Drift zu minimieren, kommen Techniken wie die visuelle-inertiale Fusion und Optimierung durch Bündeljustierung zum Einsatz.
 
+!AUSBAUEN
+
 !Drift Bild einbauen
 
 === Simultaneous Localization and Mapping
 SLAM stellt eine Schlüsseltechnologie im Rahmen von Augmented Reality dar. Es ermöglicht die die Position der Kamera zu erfassen und gleichzeitig eine Karte der Umgebung zu erstellen.
+
+!AUSBAUEN

@@ -9,5 +9,5 @@ In diesem Kaptitel werden verschiedene Grundbegriffe, welche für das weitere Ve
 == XR
 #include "3-xr.typ"
 
-== 6DoF
-#include "4-6dof.typ"
+== Degrees of Freedom
+#include "4-dof.typ"
