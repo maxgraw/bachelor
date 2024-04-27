@@ -36,3 +36,6 @@ azuma-survey:
     author:
         - Ronald T. Azuma
     year: 1997
+handbook-ar:
+    type: Book
+    title: Handbook of Augmented Reality
