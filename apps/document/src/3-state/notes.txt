@@ -9,3 +9,54 @@ Um $a_b$ zu bestimmen, verwendet man die negative Transformation des Vektors $b_
 $ a_b = -R_"ba"b_a $
 
 Diese Korrektur des Translationsvektors stellt sicher, dass das virtuelle Objekt korrekt relativ zum globalen Ursprung positioniert wird und nicht zum verschobenen Ursprung des AR-Geräts.
+
+
+###########################
+
+Der Beschleunigungsmesser erfasst die lineare Beschleunigung des Geräts, wodurch die Orientierung und deren Veränderung in Bezug zur Erde bestimmt werden können.
+
+$ p_"n+1" = p_n + v_n dot Delta Tau + 0.5 dot a_"n-1" dot Delta Tau^2 $
+
+- $p_"n+1"$: Die Position des Objekts zum Zeitpunkt $ n plus 1$. Es ist die neue berechnete Position, die basierend auf der vorherigen Position und den aktuellen Bewegungsinformationen aktualisiert wird.
+
+- $p_n$: Die Position des Objekts zum Zeitpunkt $n$, also die vorherige Position.
+
+- $v_n$: Die Geschwindigkeit des Objekts zum Zeitpunkt $n$. Diese Geschwindigkeit wird genutzt, um die Veränderung der Position über das Zeitintervall $Delta Tau$ zu berechnen.
+
+- $Delta Tau$: Das Zeitintervall zwischen den Berechnungen. Dies ist die Dauer zwischen zwei aufeinanderfolgenden Positionsberechnungen.
+
+- $0.5$: Dieser Faktor kommt von der Integration der Beschleunigung zur Berechnung der zurückgelegten Strecke, basierend auf der Formel für die gleichmäßig beschleunigte Bewegung.
+
+- $a-1$: Die Beschleunigung des Objekts zum Zeitpunkt $n minus 1$. Diese Beschleunigung wird verwendet, um den zusätzlichen Abstand zu berechnen, der aufgrund der Beschleunigung über das Zeitintervall zurückgelegt wird.
+
+- $ Delta Tau^2$: Dieser Term erscheint in der Gleichung als Teil der Beschleunigungskomponente. Er wird in der Formel für die Berechnung des zurückgelegten Weges aufgrund der Beschleunigung verwendet. Mathematisch wird Δτ2Δτ2 genutzt, um die Fläche unter der Beschleunigungs-Zeit-Kurve zu berechnen, was der durch Beschleunigung verursachten Verschiebung entspricht.
+
+$ a_n = q_n ⊗ a_n^m ⊗ q_n^* minus g $
+
+- $a_n$: Die korrigierte Beschleunigung des Objekts im inertialen (Referenz-) Koordinatensystem zum Zeitpunkt nn.
+
+- $q_n$: Der Quaternion, der die Orientierung des Objekts zum Zeitpunkt $n$ repräsentiert.
+
+- $a^m_n$: Die im bewegten Rahmen gemessene Beschleunigung, also die Beschleunigung, die direkt von den Beschleunigungssensoren gemessen wird.
+
+- $q^*_n$: Der konjugierte Quaternion zu $q_n$, der für die Rücktransformation der Beschleunigung in das Referenzsystem verwendet wird.
+
+- $⊗$: Die Quaternion-Multiplikation, die zur Rotation von Vektoren im Raum verwendet wird.
+
+- $g$: Die Gravitationsbeschleunigung, die von der gemessenen Beschleunigung abgezogen wird, um die tatsächliche Beschleunigung zu erhalten, die nicht durch die Schwerkraft beeinflusst wird.
+
+Das Gyroskop misst die Rotations- oder Winkelgeschwindigkeit des Geräts und ermöglicht so die Bestimmung der Drehbewegung.
+
+$ q_"n+1" = q_n ⊗ (1 + 1/2 Omega_n Delta Tau) $
+
+- $q_"n+1"$: Dies ist der neue Quaternion, der die aktualisierte Orientierung des Objekts zum Zeitpunkt n+1n+1 repräsentiert.
+
+- $q_n$: Der Quaternion, der die Orientierung des Objekts zum Zeitpunkt $n$ repräsentiert.
+
+- $⊗$: Die Quaternion-Multiplikation, die zur Rotation von Vektoren im Raum verwendet wird.
+
+- $Omega_n$: Dies ist der Quaternion der Winkelgeschwindigkeit zum Zeitpunkt nn. Er beschreibt, wie schnell und in welcher Achse sich das Objekt dreht.
+
+- $Delta Tau$: Das Zeitintervall zwischen den Updates nn und n+1n+1, also die Zeitdauer, über die die Drehung stattfindet.
+
+- $(1 + 1/2 Omega_n Delta Tau)$: Diese Konstruktion repräsentiert eine Approximation des exponentiellen Terms, der normalerweise in der Lösung der Differentialgleichung für die Rotation in der Quaternion-Darstellung verwendet wird. Es ist eine lineare Näherung des exponentiellen Mappings von Winkelgeschwindigkeiten zu Quaternionen, die oft in der Praxis verwendet wird, weil sie rechnerisch einfacher ist.

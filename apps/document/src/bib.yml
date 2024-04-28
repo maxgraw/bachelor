@@ -75,3 +75,6 @@ degree-of-freedom:
 interial-tracking-system:
     type: Article
     title: Inertial tracking for mobile augmented reality
+sfm-revisited:
+    type: Article
+    title: Structure-from-Motion Revisited
