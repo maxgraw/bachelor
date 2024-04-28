@@ -78,3 +78,6 @@ interial-tracking-system:
 sfm-revisited:
     type: Article
     title: Structure-from-Motion Revisited
+handheld-ar-design:
+    type: Article
+    title: Designing and Evaluating Interactions for Handheld AR

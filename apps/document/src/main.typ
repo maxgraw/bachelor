@@ -10,6 +10,8 @@
   logo: image("./media/HRW_LOGO.jpg", width: 40%),
 )
 
+#show heading.where(level: 4): set heading(numbering: none)
+
 #include "0-base/1-oath.typ"
 #include "0-base/2-abstract.typ"
 #include "0-base/3-short.typ"
@@ -22,7 +24,7 @@
 #include "1-introduction/0-index.typ"
 
 = Theoretische Grundlagen
-#include "2-basics/0-index.typ"
+#include "2-theory/0-index.typ"
 
 = Stand der Technik
 #include "3-state/0-index.typ"

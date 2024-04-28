@@ -123,3 +123,37 @@ Im ausblick mehr Frameworks vergleichen
 7. Ausblick und Fazit
 
 !!!!!!!!!!!!!betrachtung als Endnutzer und als Entwickler
+
+??? 
+- Einleitung
+    - Motivation
+    - Ziel
+    - Aufbau
+
+- Theoretische Grundlagen
+    - Web Component
+    - Augmented Reality
+        - Input
+        - Display
+        - Tracking
+    - WebXR
+        - WebXR API
+        - WebXR Device API
+        - WebXR Hit Test API
+        - WebXR Hand Input API
+        - WebXR Anchors API
+        - WebXR Layers API
+
+- Stand der Technik
+    - Interfaces
+    - AR Anwendungen
+    - AR Studien
+    - WebXR Frameworks
+
+- Konzeptentwicklung
+
+- Implementierung
+
+- Evaluation
+
+- Ausblick und Fazit
