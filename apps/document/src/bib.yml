@@ -39,3 +39,6 @@ azuma-survey:
 handbook-ar:
     type: Book
     title: Handbook of Augmented Reality
+ar-customer-journey:
+    type: Article
+    title: "Augmented Reality in the Customer Journey"

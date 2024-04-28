@@ -1,0 +1,36 @@
+- Digitalisierung schreitet Vorgang
+- Ermöglicht neue Interaktion im Bezug auf Technologie
+
+- Online Handel ist ein steigender Markt
+- Im vergleich zu 2019 ist der Umsatz für 2023 um 42% gestiegen
+- Grund dafür auch die Corona Pandemie
+
+- Seit 2022 wachstum abgeschwächt
+- Inflation
+-> Konsumverzicht. Ausgaben und Kaufentscheidungen werden überlegter getroffen
+
+- Wohnen und Einrichten ging im Vergleich zu 2022 um 8.1% zurück
+- Trtozdem ein Wachstum vin 45.4% im Vergleich zu 2019
+
+
+-> Augmented Reality stellt eine neue Interaktion dar
+- Ermöglicht das Visualisieren von Produkten in der eigenen Umgebung
+- Bessere Vorstellung von Produkten
+- Mögliche Kaufentscheidung wird erleichtert
+
+- Verschiedene Anwendungen existieren bereits
+- IKEA Place
+- Wayfair
+
+- Viele Anwendungen sind App-basiert und besitzen somit eine Zugangshürde
+
+- WebXR stellt einen Web3C Stamdard für Augmented Reality und Virtual Reality dar
+
+- WebXR ermöglicht die Nutzung von AR-Anwendungen im Browser
+
+- Vorteile von WebXR allgemeiner Standard welcher OS und Geräte unabhängig ist
+
+- Das Internet geht nicht kaputt. Entwickelte Anwendungen sind auch in Zukunft nutzbar und unabhängig von OS Updates etc.
+
+- AR als neue vorm der Interaktion
+- natürlicher als 2d Interface
