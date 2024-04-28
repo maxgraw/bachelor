@@ -1,0 +1,11 @@
+Um die grundlegende Transformation durchzuführen müssen zunächst alle relevanten Koordinatensystem definiert werden. Das globale Koordinatensystem, welches die Position und Ausrichtung seiner Elemente in der Realität darstellt, und das Koordinatensystem des Augmented-Reality-Geräts, welches die Position und Ausrichtung innerhalb der virtuellen Realität repräsentiert. Das Augmented-Reality-Gerät besitzt sowohl im eigenen als auch im globalen System eine definierte Position und Ausrichtung @handbook-ar. 
+
+Die Position des Augmented-Reality-Geräts im globalen Koordinatensystem wird durch eine Rotationsmatrix $R_"ba"$ und einen Translationsvektor $b_a$ bestimmt. Die gewünschte Position eines virtuellen Objekts ist relativ zum Gerät definiert. Zur Berechnung der tatsächlichen Position im globalen System wird die relative Objektposition $m_a$ mit der Rotationsmatrix multipliziert und der Translationsvektor hinzugefügt @handbook-ar. 
+
+$ m_b = R_"ba" m_a + a_b $
+
+Um $a_b$ zu bestimmen, verwendet man die negative Transformation des Vektors $b_a$ durch die Rotationsmatrix $R_"ba"$. Dieser Schritt ist notwendig, um die ursprüngliche Verschiebung des AR-Geräteursprungs im globalen Koordinatensystem rückgängig zu machen @handbook-ar. 
+
+$ a_b = -R_"ba"b_a $
+
+Diese Korrektur des Translationsvektors stellt sicher, dass das virtuelle Objekt korrekt relativ zum globalen Ursprung positioniert wird und nicht zum verschobenen Ursprung des AR-Geräts.

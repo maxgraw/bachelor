@@ -72,3 +72,6 @@ degree-of-freedom:
     url:
         value: https://www.w3.org/TR/webxr/#3dof
         date: 2023-12-17
+interial-tracking-system:
+    type: Article
+    title: Inertial tracking for mobile augmented reality
