@@ -1,1 +1,0 @@
-XR (Extended Reality) repräsentiert einen Sammelbegriff für das gesamte Spektrum immersiver Technologien, darunter Virtual Reality (VR), Augmented Reality (AR) und Mixed Reality (MR). Diese fortschrittlichen Technologien erweitern unsere Wahrnehmung der Realität, indem sie digitale Elemente in unsere tatsächliche Umgebung einfügen oder komplett virtuelle Welten erschaffen.

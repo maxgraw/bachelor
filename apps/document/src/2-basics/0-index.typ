@@ -6,8 +6,5 @@ In diesem Kaptitel werden verschiedene Grundbegriffe, welche für das weitere Ve
 == Web Component
 #include "2-component.typ"
 
-== XR
-#include "3-xr.typ"
-
 == Degrees of Freedom
-#include "4-dof.typ"
+#include "3-dof.typ"

@@ -1,7 +1,0 @@
-AR kann durch eine Vielzahl von Geräten erlebt werden, einschließlich Smartphones, Tablets, speziellen AR-Brillen und Head-Mounted Displays.
-
-Der Kern von AR ist die Verwendung von Software und Sensoren, um die Position und Orientierung des Benutzers in seiner Umgebung zu erfassen. Mithilfe von Kameras, Beschleunigungsmessern, GPS und anderen Sensoren kann das Gerät seine Position im Raum bestimmen und die virtuellen Objekte entsprechend der Perspektive des Benutzers richtig ausrichten und skalierten. Die Interaktion mit den überlagerten Informationen kann entweder über Touchscreens, Sprachbefehle, Gestenerkennung oder durch physische Bewegungen erfolgen.
-
-Der Einsatz von AR erstreckt sich über verschiedene Bereiche wie Bildung, wo es zum Beispiel verwendet wird, um komplexe wissenschaftliche Konzepte zu veranschaulichen, im Einzelhandel zur Anprobe von Kleidung ohne physisches Anprobieren, in der Industrie für Wartungs- und Reparaturanleitungen und in der Medizin für chirurgische Visualisierung und Training.
-
-Durch die Kombination von realen und virtuellen Welten bietet AR eine immersive und interaktive Erfahrung, die Informationen bereichert und zugänglich macht, wodurch die Art und Weise, wie Menschen lernen, arbeiten und sich unterhalten, transformiert wird.

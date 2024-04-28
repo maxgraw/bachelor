@@ -66,3 +66,9 @@ html-template-spec:
     url:
         value: https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
         date: 2023-12-17
+degree-of-freedom:
+    type: Web
+    title: Degree of Freedom
+    url:
+        value: https://www.w3.org/TR/webxr/#3dof
+        date: 2023-12-17
