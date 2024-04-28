@@ -4,35 +4,26 @@ In der wissenschaftlichen Literatur finden sich verschiedene Definitionen von Au
 
 Darüber hinaus erweitert Azuma diese technische Definition, indem er erläutert, dass Augmented Reality es dem Nutzer ermöglicht, seine reale Umgebung weiterhin wahrzunehmen, während gleichzeitig virtuelle Inhalte und Objekte hinzugefügt werden. Diese virtuellen Ergänzungen bereichern die reale Welt, ohne sie vollständig zu ersetzen, wie es bei der virtuellen Realität der Fall wäre. Azumas Ansatz betont somit die subtile Integration von Augmentierungen in die Wahrnehmung der realen Welt, die das Erlebnis des Nutzers erweitert und vertieft @azuma-survey.
 
-Ralf Döner hebt bei seiner Definition von Augmented Reality hervor, dass es sich beim Prozess der Augmentierung um keinen statischen, sondern einen kontinuierlichen und anpassbaren Vorgang handelt. Hierbei lässt sich der Prozess in fünf grundlegende Schritte gliedern. 
-
-Der Prozess beginnt mit einer Aufnahme der Realität. Es folgt das Tracking, das die Position und Orientierung des Benutzers oder spezifischer Objekte im Raum bestimmt. Der dritte Schritt ist die Registrierung, bei der die virtuellen Inhalte mittels der Tracking-Daten mit der Realität abgeglichen werden. Anschließend erfolgt die Darstellung, bei der die virtuellen Inhalte visualisiert werden. Diese müssen perspektivisch korrekt in das reale Bildmaterial integriert werden, um eine nahtlose Überlagerung zu gewährleisten. Der letzte Schritt besteht in der Ausgabe, bei der die augmentierten Bilder dem Benutzer über ein Ausgabegerät präsentiert werden @vr-ar-doener.
-
-Die in Abbildung 1 dargestellten Schritte reflektieren Döners Ansatz und werden durch zusätzliche Punkte von Shaveta Dargan ergänzt. Der Prozess wird um den Schritt der Mensch-Maschinen-Interaktion erweitert. Zusätzlich wird der Nutzer als Teil des Prozesses integriert, wo er über das zuvor definierte System der Mensch-Maschinen-Interaktion mit dem Prozess interagieren kann @ar-review.
-
-#figure(
-  image("../media/ar-pipeline.png", width: 100%),
-  caption: [Prozess der Augmentierten Realität],
-)
-
 === Interaktion
-Im vorliegenden Abschnitt werden verschiedene Interaktionstechniken untersucht, die in Anwendungen der Erweiterten Realität verwendet werden.
-
-Zunächst wird eine Untersuchung der verschiedenen Modalitäten der Ein- und Ausgabe durchgeführt. Hierbei wird auf die Vielfalt der Methoden eingegangen, durch die Benutzer mit AR-Umgebungen interagieren können. Anschließend wird die Integration und das Zusammenspiel verschiedener Interaktionstechniken thematisiert. Dies beinhaltet die Kombination und Abstimmung von Ein- und Ausgabemodalitäten, um eine kohärente und nutzerfreundliche Erfahrung zu schaffen.
-
-Es wird eine Übersicht über verschiedene Arten der Interaktionen gegeben, welche für die Entwicklung von Augmented Reality Anwendungen auf Basis von WebXR relevant sind. Hierbei wird nicht auf eine präzise Beschreibung einzelner Techniken abgezielt, sondern eine breite Darstellung der verfügbaren Technologien und ihrer Anwendungskontexte geboten.
+Im Bereich der Augmented Reality gibt es eine Vielzahl von Methoden der Interaktion, desweiteren können viele dieser Methoden miteinander kombiniert werden. Im Kontext dieser Arbeit wird der Fokus auf Methoden gelegt, welche für die Entwicklung von Applikation auf Basis von WebXR relevant und nutzbar sind.
 
 ==== Gesten
-Gesten sind natürliche Bewegungen, die eng mit der menschlichen Kommunikation verbunden sind. Die Entwicklung gestenbasierter Interaktionssysteme zielt darauf ab, eine Benutzererfahrung zu ermöglichen, die ohne physische Eingabegeräte auskommt und dadurch intuitiv nutzbar ist.
+Gesten sind natürliche Bewegungen, die eng mit der menschlichen Kommunikation verbunden sind. Die Entwicklung gestenbasierter Interaktionssysteme zielt darauf ab, eine Benutzererfahrung zu ermöglichen, die ohne physische Eingabegeräte auskommt und dadurch intuitiv nutzbar sein soll @handbook-ar @gesture-ar. Im Zuge dieser Arbeit wird zwischen Touch-Gesten und Hand-Gesten unterschieden. Im folgenden werden zunächst Hand-Gesten betrachtet.
 
-!https://dl.acm.org/doi/fullHtml/10.1145/3594806.3594815
+Die Erkennung von Gesten kann hierbei durch verschiedene Technologien oder die Kombination von Technologien erfolgen. Song et al. @in-air-gesture beschrieben in ihrer Arbeit die Verwendung von Kamerasystemen in Kombination mit Machine-Learning-Algorithmen zur Erkennung von Handgesten. Weitere Lösungen basieren auf der Verwendung von Tiefenkameras @depth-gesture oder der Verwendung von Handschuhen, die mit Sensoren ausgestattet sind @glove-gesture.
+
+Die Nutzung dieser Interaktionsmethode findet hierbei in einem breiten Spektrum von Anwendungen und Branchen statt. So wird die Gestensteuerung beispielsweise in der Medizin, der Industrie oder im Bereich der Unterhaltungselektronik eingesetzt @gesture-ar.
+
+Trotz der vielfältigen Anwendungsmöglichkeiten und der intuitiven Bedienung lassen sich gestenbasierte Interaktionen nicht in allen Anwendungsfällen sinnvoll einsetzen @gesture-ar. Einfache Interaktionen lassen sich hierbei leicht merken, allerdings kann die Komplexität der Interaktionen schnell ansteigen, was zu immer komplexeren Gesten führen kann. In Kombination mit einer geringen Fehlertoleranz @user-defined-gesture kann dies die Interaktionsqualität negativ beeinflussen @gesture-ar.
 
 ==== Haptisch
-Die haptische Interaktion in AR und VR Systemen erweitert die sensorische Erfahrung über auditive und visuelle Kanäle hinaus durch Einbeziehung des Tast- und Bewegungssinns. Haptische Geräte erzeugen mechanische Signale, die sowohl kutane/taktile als auch kinästhetische/propriozeptive Empfindungen ansprechen.
+Die haptische Interaktion in AR und VR Systemen erweitert die sensorische Erfahrung über auditive und visuelle Kanäle hinaus durch Einbeziehung des Tast- und Bewegungssinns @handbook-ar.
 
 !A Survey on Haptic Technologies for Mobile Augmented Reality
 
-==== Maus und Tastatur
+==== Maus, Tastatur
+
+==== Toch
 
 ==== Sprache
 

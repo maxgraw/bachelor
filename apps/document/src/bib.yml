@@ -81,3 +81,28 @@ sfm-revisited:
 handheld-ar-design:
     type: Article
     title: Designing and Evaluating Interactions for Handheld AR
+gesture-ar:
+    type: Article
+    title: "Gesture-based Interaction for AR Systems: A Short Review"
+    url:
+        value: https://dl.acm.org/doi/fullHtml/10.1145/3594806.3594815
+in-air-gesture:
+    type: Article
+    title: "In-air Gestures Around Unmodified Mobile Devices"
+    url:
+        value: file:///C:/Users/max/Downloads/soeroesg-uist2014-inairgestures.pdf
+depth-gesture:
+    type: Article
+    title: "Depth camera based hand gesture recognition and its applications in Human-Computer-Interaction"
+    url:
+        value: https://www.researchgate.net/publication/254022329_Depth_camera_based_hand_gesture_recognition_and_its_applications_in_Human-Computer-Interaction
+glove-gesture:
+    type: Article
+    title: "Digits: Freehand 3D interactions anywhere using a wrist-worn gloveless sensor"
+    url:
+        value: https://www.researchgate.net/publication/233389245_Digits_Freehand_3D_interactions_anywhere_using_a_wrist-worn_gloveless_sensor
+user-defined-gesture:
+    type: Article
+    title: "User-Defined Gestures for Augmented Reality"
+    url:
+        value: https://link.springer.com/chapter/10.1007/978-3-642-40480-1_18
