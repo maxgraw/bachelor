@@ -1,52 +1,34 @@
-Die vorliegende Arbeit zielt darauf ab, eine Augmented Reality-Konstruktionsumgebung für Möbelsysteme zu entwickeln, die auf WebXR basiert. 
+Das primäre Ziel dieser Arbeit besteht darin, eine Augmented Reality-Konstruktionsumgebung für Möbelsysteme zu konzipieren und zu entwickeln, die auf der WebXR-Technologie basiert. Die Anwendung soll es hierbei Nutzern ermöglichen, Modelle in einer Augmented Reality-Umgebung zu visualisieren und interaktiv zu manipulieren, indem sie Modelle hinzufügen, bearbeiten oder entfernen können. Darüber hinaus soll die Anwendung die Verbindung einzelner Modelle unterstützen, um komplexe Möbelsysteme zu erstellen.
 
-Die Basis für die Entwicklung der Anwendung und Funktionen bietet eine Zielgruppenanalyse und Anforderungsanalyse. Die daraus resultierenden Anforderungen bieten die Grundlage für die Konzeption und Implementierung der Anwendung. Die Anwendung soll es hierbei ermöglichen, Modelle in einer AR-Umgebung zu visualisieren, Modelle interaktiv hinzuzufügen, zu bearbeiten und zu entfernen sowie Modelle zu verbinden, um ein Möbelsystem bestehend aus mehreren Modellen zu erstellen. 
-
-Das System soll hierbei unterschiedliche Modelle und Konfigurationen unterstützen. Im Rahmen dieser Arbeit wird das Stackcubes-System als Möbelsystem verwendet. Das Stackcube System ermöglicht 
-
-Als Möbelsystem wird das Stackcubes-System verwendet.
-
+Für die initiale Evaluation der Anwendung wird das Stackcubes-System herangezogen, ein modulares Möbelsystem, das aus einzelnen, frei kombinierbaren Würfeln besteht. Wie in Abbildung 1 und Abbildung 2 dargestellt, können hierbei einzelne Elemente verschiedene Paramter in Bezug auf Breite und Länge annehmen. Die Verbindung einzelner Elemente erfolgt durch die Verzahnung der in Abbildung 1 dargestellten Zapfen. Dadurch können einzelne Elemente schnell und kostengünstig miteinader verbunden werden. Ziel der Anwendung besteht darin, dass eine wie in Abbildung 3 dargestellte Anordnung von Stackcube Elementen in einer AR-Umgebung visualisiert und interaktiv bearbeitet werden kann.
 
 #grid(
   columns: (1fr, 1fr),
   rows: (auto),
-  gutter: 5pt,
+  gutter: 10pt,
   grid.cell(
     figure(
       image("../media/cube_1.jpeg", width: 100%),
-      caption: [Stackcubes-System Beispiel],
-      ),
+      caption: [Stackcube Element],
+    )
   ),
   grid.cell(
     figure(
       image("../media/cube_2.jpeg", width: 100%),
-      caption: [Stackcubes-System Beispiel],
-      ),
+      caption: [Stackcube Element],
+    ),
+  ),
+  grid.cell(
+    colspan: 2,
+    figure(
+      image("../media/cube_3.png", width: 100%),
+      caption: [Beispielhafte Anordnung von Stackcube Elementen],
+    ),
   ),
 )
 
-- Ziel der Arbeit ist die Konzeption und Entwicklung einer Augmented Reality-Konstruktionsumgebung für Möbelsysteme auf Basis von WebXR.
+Neben der Unterstützung für das Stackcubes-System soll die Anwendung zukünftig auch andere Möbelsysteme integrieren können, was eine breite Anwendbarkeit und Anpassungsfähigkeit der entwickelten Technologie gewährleistet. Eine wichtige Komponente des Projekts ist die Integration der AR-Anwendung in bestehende Systeme wie Online-Shops, was den praktischen Nutzen der Anwendung in realen Verkaufssituationen demonstrieren würde.
 
-- Zunächst Konzeption
-- Zielgruppenanalyse
-- Anforderungsanalyse
+Die Benutzeroberfläche und die User Experience spielen eine entscheidende Rolle für die Akzeptanz und Benutzbarkeit der Anwendung. Daher wird ein besonderer Fokus auf die Entwicklung einer intuitiven, leicht zugänglichen und ästhetisch ansprechenden Benutzeroberfläche gelegt. Diese soll nicht nur funktional sein, sondern auch die Interaktion mit den Möbelsystemen in einer Weise unterstützen, die dem Nutzer eine natürliche und angenehme Erfahrung bietet.
 
--> Anwendung soll es ermöglichen:
--> Modelle in AR-Umgebung zu visualisieren
--> Modelle interaktiv hinzuzufügen, zu bearbeiten und zu entfernen
--> Modelle verbinden um ein Möbelsystem besteheen aus mehreren Modellen zu erstellen
-
--> Als Möbelsystem wird das Stackcubes-System verwendet
-
--> System soll unterschiedliche Modelle und Konfigurationen unterstützen
--> In z.B. Online Shops integrierbar sein
-
--> Applikation soll gute ui und ux bieten
-
--> Validierung der ui ux 
--> Validierung der Technologie Wahl
-
-
-
-
-Das Ziel dieser Arbeit ist es, eine Augmented Reality-Anwendung zu konzipieren und zu implementieren, die das Visualisieren vorgeladener Modelle in einer bereitgestellten AR-Umgebung ermöglicht. Zusätzlich soll die Anwendung den Nutzern erlauben, Modelle interaktiv hinzuzufügen, zu bearbeiten und zu entfernen. Ein besonderes Augenmerk liegt auf der Anpassung von Möbelsystemen basierend auf dem Stackcubes-System. Im Rahmen dieser Arbeit werden verschiedene Frameworks und Technologien miteinander verglichen, um eine fundierte Entscheidung für die Verwendung von WebXR als Entwicklungsplattform zu treffen. Dabei wird insbesondere die Eignung von WebXR für diese und andere AR-Anwendungen überprüft. Die Überprüfung der Anwendung und der gewählten Technologie erfolgt durch eine Evaluation, die sich auf Usability und User Experience konzentriert. Zusätzlich werden technische Aspekte wie die Leistungsfähigkeit und Stabilität der Anwendung betrachtet. Abschließend werden die Ergebnisse der Evaluation zusammengefasst und ein Ausblick auf zukünftige Entwicklungen im Bereich der AR-Konstruktionstechnologien gegeben, um mögliche Verbesserungen und Weiterentwicklungen zu diskutieren.
+Schließlich umfasst die Validierung der Anwendung sowohl die Überprüfung der Benutzeroberfläche und der User Experience als auch die Evaluierung der gewählten technologischen Lösungen. Durch Tests mit realen Benutzern sollen Erkenntnisse über die Usability und das Benutzererlebnis gewonnen werden, während technische Tests sicherstellen sollen, dass die gewählten Technologien den Anforderungen einer robusten und effizienten Augmented Reality-Anwendung entsprechen.
