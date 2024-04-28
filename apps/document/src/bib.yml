@@ -42,3 +42,27 @@ handbook-ar:
 ar-customer-journey:
     type: Article
     title: "Augmented Reality in the Customer Journey"
+web-components-introduction:
+    type: Web
+    title: Web Components Website
+    url:
+        value: https://www.webcomponents.org/introduction
+        date: 2023-12-17
+custom-element-spec:
+    type: Web
+    title: HTML Living Standard
+    url:
+        value: https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements
+        date: 2023-12-17
+shadow-dom-spec:
+    type: Web
+    title: HTML Living Standard
+    url:
+        value: https://dom.spec.whatwg.org/#interface-shadowroot
+        date: 2023-12-17
+html-template-spec:
+    type: Web
+    title: HTML Living Standard
+    url:
+        value: https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
+        date: 2023-12-17

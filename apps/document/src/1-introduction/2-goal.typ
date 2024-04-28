@@ -1,31 +1,11 @@
 Das primäre Ziel dieser Arbeit besteht darin, eine Augmented Reality-Konstruktionsumgebung für Möbelsysteme zu konzipieren und zu entwickeln, die auf der WebXR-Technologie basiert. Die Anwendung soll es hierbei Nutzern ermöglichen, Modelle in einer Augmented Reality-Umgebung zu visualisieren und interaktiv zu manipulieren, indem sie Modelle hinzufügen, bearbeiten oder entfernen können. Darüber hinaus soll die Anwendung die Verbindung einzelner Modelle unterstützen, um komplexe Möbelsysteme zu erstellen.
 
-Für die initiale Evaluation der Anwendung wird das Stackcubes-System herangezogen, ein modulares Möbelsystem, das aus einzelnen, frei kombinierbaren Würfeln besteht. Wie in Abbildung 1 und Abbildung 2 dargestellt, können hierbei einzelne Elemente verschiedene Paramter in Bezug auf Breite und Länge annehmen. Die Verbindung einzelner Elemente erfolgt durch die Verzahnung der in Abbildung 1 dargestellten Zapfen. Dadurch können einzelne Elemente schnell und kostengünstig miteinader verbunden werden. Ziel der Anwendung besteht darin, dass eine wie in Abbildung 3 dargestellte Anordnung von Stackcube Elementen in einer AR-Umgebung visualisiert und interaktiv bearbeitet werden kann.
+Für die initiale Evaluation der Anwendung wird das Stackcubes-System herangezogen, ein modulares Möbelsystem, das aus einzelnen, frei kombinierbaren Würfeln besteht. Die Verbindung einzelner Elemente erfolgt durch die Verzahnung der Zapfen. Dadurch können einzelne Elemente schnell und kostengünstig miteinader verbunden werden. Ziel der Anwendung besteht darin, dass eine wie in @cube dargestellte Anordnung von Stackcube Elementen in einer AR-Umgebung visualisiert und interaktiv bearbeitet werden kann.
 
-#grid(
-  columns: (1fr, 1fr),
-  rows: (auto),
-  gutter: 10pt,
-  grid.cell(
-    figure(
-      image("../media/cube_1.jpeg", width: 100%),
-      caption: [Stackcube Element],
-    )
-  ),
-  grid.cell(
-    figure(
-      image("../media/cube_2.jpeg", width: 100%),
-      caption: [Stackcube Element],
-    ),
-  ),
-  grid.cell(
-    colspan: 2,
-    figure(
+#figure(
       image("../media/cube_3.png", width: 100%),
       caption: [Beispielhafte Anordnung von Stackcube Elementen],
-    ),
-  ),
-)
+) <cube>
 
 Neben der Unterstützung für das Stackcubes-System soll die Anwendung zukünftig auch andere Möbelsysteme integrieren können, was eine breite Anwendbarkeit und Anpassungsfähigkeit der entwickelten Technologie gewährleistet. Eine wichtige Komponente des Projekts ist die Integration der AR-Anwendung in bestehende Systeme wie Online-Shops, was den praktischen Nutzen der Anwendung in realen Verkaufssituationen demonstrieren würde.
 

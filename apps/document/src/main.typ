@@ -21,7 +21,7 @@
 = Einleitung
 #include "1-introduction/0-index.typ"
 
-= Grundlagen
+= Theoretische Grundlagen
 #include "2-basics/0-index.typ"
 
 = Stand der Technik
