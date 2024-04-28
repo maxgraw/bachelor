@@ -1,4 +1,4 @@
-Diese Arbeit beschäftigt sich mit der Entwicklung einer Augmented Reality Komponente basierend auf WebXR, welche die Darstellung und Platzierung von 3D-Möbelmodellen in einer AR-Umgebung ermöglicht.
+Diese Arbeit beschäftigt sich mit der Entwicklung einer Augmented Reality Komponente basierend auf WebXR, welche die Darstellung und Platzierung von 3D-Möbelmodellen in einer Augmented Reality Umgebung ermöglicht.
 
 == Motivation
 #include "1-motivation.typ"
