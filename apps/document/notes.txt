@@ -1,34 +1,3 @@
-!!!!!!!!!!!!!betrachtung als Endnutzer und als Entwickler
-
-!!!!!!!!!!!!! WebXR wahl hervorheben
-
-Tracking in Augmented Reality
-- Einleitung
-- Grundlagen
-- Inertial Sensors
-- Computer Vision
-- SfM
-- Slam
-
-Stand der Technik
-Tracking in Augmented Reality
-- Einleitung
-- Grundlagen
-- Inertial Sensors
-- Computer Vision
-- SfM
-- Slam
-
-- Hardware
-
-- Interaktion
-
-- Schnittstellen:
-- Klarstellung das Fokus auf WebXR liegt
-- Für bessere verständis trotzdem andere Frameworks erwähnen
-- Begründung der Auswahl von Webxr damit Begründen
-- WebXR Umsetzung in Fazit in Bezug auf die anderen Frameworks kritisch betrachten
-
 - WebXR:
 - WebXR API
 - WebXR Device API
@@ -45,93 +14,13 @@ Tracking in Augmented Reality
 - Applikationen
 - Ikea Place
 
-
-Formalien:
-12pt
-
-
-3.5 rechts
-2.5 links
-3 oben
-3.5 unten
-
-Eidestattliche Erklärung
-"Gendern"
-Abstract
-Kurzfassung
-
-Inhaltsverzeichnis
-
-Abbildungsverzeichnis
-Tabellenverzeichnis
-
-Fokus dieser Arbeit liegt auf Konzeption und Entwicklung der Applikation -> deswegen WebXR nicht vergleichen
-
-Titel der Kapitel ausarbeiten also länger
-
-Alles Begründen
-
-Also auch Tracking -> move to Stand der Technik
-
-Tracking arten -> Stand der Technik -> Unterschiede hervorheben
-
-Theorie -> spezifizieren
-
-Viele Tracking verfahren -> über Anforderungen filtern
-
--> tracking algorthem ist am fortschrittlichsten
-
-1. Einleitung
-1.1 Motivation
-1.2 Ziel
-1.3 Aufbau
-
-2. Begriffe
-2.1 Augmented Reality
-2.2 Web Component
-
-2. Augmented Reality
-2.1 Herleitung
-2.2 Definition
-2.3 Pipeline
-2.4 Anwendungsgebiete
-
-Marktanalyse für auswahl der Technik.
-
-Im ausblick mehr Frameworks vergleichen
-
-3. Stand der Technik
-??? Theoretischer Stand der Technik?
-3.1 Frameworks
-3.1.1 ARKit
-3.1.2 ARCore
-3.1.3 Unity (AR Foundation / Unity Mars)
-3.1.4 OpenXR
-
-4. Konzeptentwicklung
-4.1 Zielgruppendefinition
-4.2 Anforderungsanalyse
-4.3 Wahl der Technik
-
-5. Implementierung
-
-6. Evaluation der Anwendung
-6.1 Zielsetzung
-6.2 Methodik
-6.3 Ergebnisse
-
-7. Ausblick und Fazit
-
-!!!!!!!!!!!!!betrachtung als Endnutzer und als Entwickler
-
-??? 
 - Einleitung
     - Motivation
     - Ziel
     - Aufbau
 
 - Theoretische Grundlagen
-    - Web Component
+    - Web Components
     - Augmented Reality
         - Input
         - Display
@@ -145,15 +34,25 @@ Im ausblick mehr Frameworks vergleichen
         - WebXR Layers API
 
 - Stand der Technik
-    - Interfaces
+    - Aktuelle Studien
+        - ...
     - AR Anwendungen
-    - AR Studien
+        - Ikea Place
+        - ...
     - WebXR Frameworks
+        - A-Frame
+        - Babylon.js
+        - Three.js
 
 - Konzeptentwicklung
+    - Zielgruppendefinition
+    - Anforderungsanalyse
 
 - Implementierung
 
 - Evaluation
+    - Zielsetzung
+    - Methodik
+    - Ergebnisse
 
 - Ausblick und Fazit
