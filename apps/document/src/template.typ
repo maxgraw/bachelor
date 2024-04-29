@@ -56,6 +56,14 @@
   show heading.where(level: 2): set block(above: 1.85em, below: 1em)
   show heading.where(level: 3): set block(above: 1.75em, below: 1em)
   show heading.where(level: 4): set block(above: 1.55em, below: 1em)
+
+  show heading.where(
+    level: 4
+  ): it => [
+    #set heading(numbering: none)
+    #block(it.body)
+  ]
+
   set par(justify: true)
 
   body

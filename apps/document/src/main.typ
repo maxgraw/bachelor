@@ -10,8 +10,6 @@
   logo: image("./media/HRW_LOGO.jpg", width: 40%),
 )
 
-#show heading.where(level: 4): set heading(numbering: none)
-
 #include "0-base/1-oath.typ"
 #include "0-base/2-abstract.typ"
 #include "0-base/3-short.typ"
