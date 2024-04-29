@@ -7,7 +7,7 @@ Darüber hinaus erweitert Azuma diese technische Definition, indem er erläutert
 === Interaktion
 Im Bereich der Augmented Reality gibt es eine Vielzahl von Methoden der Interaktion, desweiteren können viele dieser Methoden miteinander kombiniert werden. Im Kontext dieser Arbeit wird der Fokus auf Methoden gelegt, welche für die Entwicklung von Applikation auf Basis von WebXR relevant und nutzbar sind.
 
-==== Gesten
+==== Hand-Gesten
 Gesten sind natürliche Bewegungen, die eng mit der menschlichen Kommunikation verbunden sind. Die Entwicklung gestenbasierter Interaktionssysteme zielt darauf ab, eine Benutzererfahrung zu ermöglichen, die ohne physische Eingabegeräte auskommt und dadurch intuitiv nutzbar sein soll @handbook-ar @gesture-ar. Im Zuge dieser Arbeit wird zwischen Touch-Gesten und Hand-Gesten unterschieden. Im folgenden werden zunächst Hand-Gesten betrachtet.
 
 Die Erkennung von Gesten kann hierbei durch verschiedene Technologien oder die Kombination von Technologien erfolgen. Song et al. @in-air-gesture beschrieben in ihrer Arbeit die Verwendung von Kamerasystemen in Kombination mit Machine-Learning-Algorithmen zur Erkennung von Handgesten. Weitere Lösungen basieren auf der Verwendung von Tiefenkameras @depth-gesture oder der Verwendung von Handschuhen, die mit Sensoren ausgestattet sind @glove-gesture.
@@ -16,25 +16,27 @@ Die Nutzung dieser Interaktionsmethode findet hierbei in einem breiten Spektrum 
 
 Trotz der vielfältigen Anwendungsmöglichkeiten und der intuitiven Bedienung lassen sich gestenbasierte Interaktionen nicht in allen Anwendungsfällen sinnvoll einsetzen @gesture-ar. Einfache Interaktionen lassen sich hierbei leicht merken, allerdings kann die Komplexität der Interaktionen schnell ansteigen, was zu immer komplexeren Gesten führen kann. In Kombination mit einer geringen Fehlertoleranz @user-defined-gesture kann dies die Interaktionsqualität negativ beeinflussen @gesture-ar.
 
-==== Haptisch
-Die haptische Interaktion in AR und VR Systemen erweitert die sensorische Erfahrung über auditive und visuelle Kanäle hinaus durch Einbeziehung des Tast- und Bewegungssinns @handbook-ar.
+==== Touch-Gesten
+Touch-Gesten stellen eine natürliche und intuitiv nutzbare Interaktionsmethode dar. Sie basieren hierbei den gleichen Prinzipien wie die zuvor genannte Interaktion mittels Handgesten @handbook-ar.
 
-!A Survey on Haptic Technologies for Mobile Augmented Reality
+Die Interaktion erfolgt über das Display eines Geräts, wodurch Nutzer durch Berührung oder Bewegung des Fingers auf dem Bildschirm mit der Anwendung interagieren können. Touch-Gesten sind weit verbreitet und finden in vielen Anwendungen Verwendung, wie beispielsweise in Smartphones, Tablets oder interaktiven Tischen @handheld-ar-design.
 
-==== Maus, Tastatur
-
-==== Toch
-
-==== Sprache
+Touch-Gesten bieten zahlreiche Anwendungsmöglichkeiten und sind aufgrund ihrer hohen Verfügbarkeit und Vertrautheit eine beliebte Interaktionsmethode. Jedoch stellt die Interaktion mit Augmented-Reality-Szenen eine Herausforderung dar, da die 2D-Eingabe auf ein 6DOF-System übertragen werden muss @handheld-ar-design.
 
 ==== Multimodal
-!A Review of Multimodal Interaction Technique in Augmented Reality Environment
+Die Interaktion über einen einzelnen Eingabekanal wird als unimodales System bezeichnet. Die Art des Eingabekanals kann hierbei variieren, beispielsweise durch die Verwendung von Handgesten, Sprachsteuerung oder Touch-Gesten @overview-multimodal. Multimodale Interaktionssysteme ermöglichen es, mehrere dieser Eingabekanäle zu kombinieren, um eine effizientere und vielseitigere Interaktion zu ermöglichen @handbook-ar.
+
+Nizam et al. stellen eine Übersicht über multimodale Interaktionen bereit. Es werden verschiedene Kombinationen von Eingabekanälen vorgestellt, die in ihrer Anzahl variieren. Beispielsweise wird die Kombination von Handgesten und Sprachsteuerung sowie die Kombination von Touch-Gesten und Sprachsteuerung beschrieben @overview-multimodal. Die Interaktion über verschiedene Eingabekanäle kann hierbei zeitgleich oder sequenziell erfolgen. In einer weiteren Studie wird die Kombination von Touch-Gesten und Handgesten beschrieben. Hierbei wird zunächst über eine Touch-Geste eine Auswahl getroffen, die anschließend durch eine Handgeste in der Augmented Reality Szene manipuliert wird @touch-and-gesture-interaction.
+
+Multimodale Interaktionen bieten eine effizientere Möglichkeit der Interaktion mit Augmented Reality-Anwendungen, setzen jedoch gleichzeitig eine höhere Lernkurve für den Nutzer voraus. Des Weiteren kann die Kombination von Eingabekanälen zu einer höheren Komplexität der Interaktion führen @overview-multimodal.
 
 === Ausgabe
 Für die Darstellung von Augmented Reality sind spezielle Hardwarekomponenten und Sensoren erforderlich, die die physische Umgebung erfassen und analysieren. Diese Technologien ermöglichen es, digitale Informationen nahtlos in die reale Welt einzubetten. Zu den Hauptkomponenten zählen Sensoren für das Tracking und Geräte für die Eingabe, die die Interaktionen der Nutzer mit der virtuellen Umgebung erfassen.
 
 ==== Handheld
-Handheld bezeichnet eine breite Gerätegruppe, welche sich in der Anzahl und Qualität von Hardware und Sensoren stark unterscheidet. Dementsprechend kann die verfügbarkeit und qualität von z.B. Tracking-Technologien oder Eingabemethoden variieren. Meistens werden Smartphones oder Tablets unter dieser Kategorie zusammengefasst. Die Darstellung der Augmented Reality Inhalte erfolgt hierbei über das jeweilige Display als Video-See-Through. Mit der ansteigenden Leistungsfähigkeit von Smartphones und Tablets, werden diese Geräte immer häufiger für Augmented Reality Anwendungen verwendet. Vorteil dieser Geräte ist die hohe Verbreitung und Grundlegende Vertrautheit mit dem Gerät.
+Handheld bezeichnet eine breite Gerätegruppe, welche sich in der Anzahl und Qualität von Hardware und Sensoren stark unterscheidet. Dementsprechend kann die verfügbarkeit und qualität von z.B. Tracking-Technologien oder Eingabemethoden variieren. Meistens werden Smartphones oder Tablets unter dieser Kategorie zusammengefasst. Die Darstellung der Augmented Reality Inhalte erfolgt hierbei über das jeweilige Display als Video-See-Through @vr-ar-doener. 
+
+Mit der ansteigenden Leistungsfähigkeit von Smartphones und Tablets, werden diese Geräte immer häufiger für Augmented Reality Anwendungen verwendet. Vorteil dieser Geräte ist die hohe Verbreitung und Grundlegende Vertrautheit mit dem Gerät.
 
 Allerdings stellt Handheld auch einige Probleme dar. Die Interaktion mit dem Augmented Reality System findet hierbei hauptsächlich über das Display in Form von Touch-Eingaben statt. Hierbei muss jedoch die 2 Dimensionale Eingabe auf die 6DOFs des Systems abgebildet werden.
 

@@ -106,3 +106,12 @@ user-defined-gesture:
     title: "User-Defined Gestures for Augmented Reality"
     url:
         value: https://link.springer.com/chapter/10.1007/978-3-642-40480-1_18
+overview-multimodal:
+    type: Article
+    title: "A Review of Multimodal Interaction Technique in Augmented Reality
+Environment"
+touch-and-gesture-interaction:
+    type: Article
+    title: "Touch and hand gesture-based interactions for directly
+manipulating 3D virtual objects in mobile
+augmented reality"
