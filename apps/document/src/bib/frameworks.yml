@@ -1,0 +1,42 @@
+frameworks-stars:
+    type: Web
+    title: "webgl Github Topics"
+    url:
+        value: https://github.com/topics/webgl
+        date: 2024-04-29
+frameworks-download:
+    type: Web
+    title: "@babylonjs/core vs aframe vs three"
+    url:
+        value: https://npmtrends.com/@babylonjs/core-vs-aframe-vs-three
+        date: 2024-04-29
+babylonjs-specification:
+    type: Web
+    title: "Babylon.js ENGINE SPECIFICATIONS"
+    url:
+        value: https://www.babylonjs.com/specifications/
+        date: 2024-04-29
+babylonjs-graph:
+    type: Web
+    title: "The .babylon File Format"
+    url:
+        value: https://doc.babylonjs.com/setup/support/.babylonFileFormat
+        date: 2024-04-29
+babylonjs-webxr-experience-helper:
+    type: Web
+    title: "WebXR Experience Helper"
+    url:
+        value: https://doc.babylonjs.com/features/featuresDeepDive/webXR/webXRExperienceHelpers
+        date: 2024-04-29
+threejs-webxr:
+    type: Web
+    title: "WebXRManager"
+    url:
+        value: https://threejs.org/docs/#api/en/renderers/webxr/WebXRManager
+        date: 2024-04-29
+a-frame-introduction:
+    type: Web
+    title: "A-Frame - Introduction"
+    url:
+        value: https://aframe.io/docs/1.5.0/introduction/
+        date: 2024-04-29

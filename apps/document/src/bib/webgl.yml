@@ -1,0 +1,22 @@
+webgl-spec:
+    type: Web
+    title: "WebGL 2.0 Specification"
+    url:
+        value: https://registry.khronos.org/webgl/specs/latest/2.0
+        date: 2024-04-29
+
+opengl-es-overview:
+  type: misc
+  title: "OpenGL ES - the standard for embedded accelerated 3D graphics"
+  date: 2011
+  url:
+    value: https://www.khronos.org/opengles/
+    date: 2024-04-29
+
+
+can-i-use-webgl:
+    type: Web
+    title: "WebGL 2.0 | Can I use... Support tables for HTML5, CSS3, etc"
+    url:
+        value: https://caniuse.com/webgl2
+        date: 2024-04-29

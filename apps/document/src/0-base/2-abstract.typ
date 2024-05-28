@@ -1,0 +1,6 @@
+#set align(start + horizon)
+#set heading(numbering: none, supplement: [Abschnitt])
+
+= Abstract
+This thesis addresses the conception and development of an augmented reality construction environment for furniture systems based on WebXR. The primary goal is to validate the suitability of WebXR for the development of an augmented reality application and to investigate user experience and application possibilities in the furniture industry. Following an analysis of the current use of augmented reality in the furniture industry and the technical fundamentals of WebXR and augmented reality, a concept for the application was developed and implemented. The user experience was evaluated using the User Experience Questionnaire method in an online study, which yielded positive feedback for the application. However, the results must be critically examined due to observed high variance. Nevertheless, the application can be considered a functional basis for further studies and developments.
+#pagebreak()

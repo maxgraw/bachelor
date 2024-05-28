@@ -1,0 +1,6 @@
+#set align(start + horizon)
+#set heading(numbering: none, supplement: [Abschnitt])
+
+= Kurzfassung
+Diese Arbeit befasst sich mit der Konzeption und Entwicklung einer Augmented Reality Konstruktionsumgebung für Möbelsysteme auf Basis von WebXR. Ziel ist es, die Eignung von WebXR für die Entwicklung einer Augmented Reality Anwendung zu validieren und die User Experience sowie Anwendungsmöglichkeiten in der Möbelbranche zu untersuchen. Nach einer Analyse der aktuellen Augmented Reality Nutzung in der Möbelbranche und der technischen Grundlagen von WebXR und Augmented Reality wurde ein Konzept für die Anwendung entwickelt und implementiert. Die Benutzererfahrung wurde mit der User Experience Questionnaire Methode in einer Online-Studie evaluiert, die eine positive Bewertung der Anwendung ergab. Die Ergebnisse müssen jedoch kritisch betrachtet werden, da teilweise eine hohe Streuung festgestellt wurde. Dennoch kann die Anwendung als funktionale Grundlage für weitere Studien und Entwicklungen betrachtet werden.
+#pagebreak()

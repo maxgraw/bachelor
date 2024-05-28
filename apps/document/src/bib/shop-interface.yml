@@ -1,0 +1,12 @@
+woocommerce-link:
+  type: Web
+  title: "Creating WooCommerce 'Add to Cart' URLs"
+  url:
+    value: https://woocommerce.com/document/quick-guide-to-woocommerce-add-to-cart-urls/
+    date: 2024-04-29
+woocommerce-shop:
+  type: Web
+  title: "StackCubes - Modulares Möbelsystem, grenzenlose Vielfalt - inklusiv, flexibel, smart!"
+  url:
+    value: https://woocommerce.maxpaszke.de/
+    date: 2024-04-29

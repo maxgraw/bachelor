@@ -1,0 +1,19 @@
+
+Die Überprüfung der zuvor entwickelten Implementierung auf ihre erfolgreichbarkeit
+
+Der Fokus liegt dabei auf der Analyse der Benutzererfahrung, die mithilfe des User Experience Questionnaire (UEQ) systematisch gemessen wird. Der UEQ ist ein etabliertes Werkzeug zur Bewertung der subjektiven Benutzerzufriedenheit und bietet umfassende Einsichten in sechs Kategorien: Attraktivität, Effizienz, Klarheit, Zuverlässigkeit, Stimulation und Originalität. Durch den Einsatz dieses Fragebogens können quantitative und qualitative Daten zur Usability und User Experience des Prototyps gesammelt werden, die essentiell für die iterative Verbesserung und Weiterentwicklung des Systems sind.
+
+Ziel der Evaluation ist es, zu verstehen, wie Endnutzer die Interaktion mit dem AR-System erleben, welche Aspekte besonders positiv oder negativ auffallen und wie die Anwendung in ihrem aktuellen Entwicklungsstadium optimiert werden kann. Diese Erkenntnisse sind von entscheidender Bedeutung, um sicherzustellen, dass das Endprodukt nicht nur funktional, sondern auch benutzerfreundlich gestaltet ist.
+
+!!hedonisch nachschauen
+
+- Probanden
+- Infos zu Probanden
+
+- UEQ
+- quantitativ
+- Fragebogen design
+
+- Durchführung
+
+Fragebogen durchlaufen etc.

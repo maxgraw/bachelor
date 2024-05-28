@@ -1,0 +1,18 @@
+ueq-handbook:
+  type: misc
+  title: User Experience Questionnaire Handbook
+  author: Schrepp, Martin
+  date: 2023
+  page-range: ''
+  serial-number:
+    doi: 10.13140/RG.2.1.2815.0245
+
+ueq-tool:
+    type: misc
+    title: "User Experience Questionnaire Toolset"
+    url: "https://www.ueq-online.org/Material/Data_Analysis_Tools.zip"
+
+ueq-website:
+    type: Web
+    title: "User Experience Questionnaire"
+    url: "https://www.ueq-online.org/"

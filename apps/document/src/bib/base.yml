@@ -1,0 +1,315 @@
+hde-online-monitor-2023:
+    type: Article
+    title: Online Monitor 2023
+    author: "IFH Köln"
+    publisher: "Handelsverband Deutschland - HDE e. V."
+    date: 2023
+    url:
+        value: https://einzelhandel.de/images/attachments/article/2876/HDE_Online_Monitor_2023.pdf
+        date: 2024-04-29
+
+vr-ar-doener:
+  type: book
+  title: 'Virtual und Augmented Reality (VR/AR): Grundlagen und Methoden der Virtuellen und Augmentierten Realität'
+  date: 2019
+  publisher: Springer Berlin Heidelberg
+  url: http://dx.doi.org/10.1007/978-3-662-58861-1
+  serial-number:
+    doi: 10.1007/978-3-662-58861-1
+    isbn: '9783662588611'
+
+ar-milgram:
+  type: article
+  title: 'Augmented reality: a class of displays on the reality-virtuality continuum'
+  author:
+  - Milgram, Paul
+  - Takemura, Haruo
+  - Utsumi, Akira
+  - Kishino, Fumio
+  date: 1995-12
+  editor: Das, Hari
+  url: http://dx.doi.org/10.1117/12.197321
+  serial-number:
+    doi: 10.1117/12.197321
+    issn: 0277-786X
+  parent:
+    type: proceedings
+    title: Telemanipulator and Telepresence Technologies
+    publisher: SPIE
+
+azuma-survey:
+  type: article
+  title: A Survey of Augmented Reality
+  author: Azuma, Ronald T.
+  date: 1997-08
+  page-range: 355-385
+  url: http://dx.doi.org/10.1162/pres.1997.6.4.355
+  serial-number:
+    doi: 10.1162/pres.1997.6.4.355
+    issn: 1054-7460
+  parent:
+    type: periodical
+    title: 'Presence: Teleoperators and Virtual Environments'
+    publisher: MIT Press - Journals
+    issue: 4
+    volume: 6
+
+handbook-ar:
+  type: book
+  title: Handbook of Augmented Reality
+  date: 2011
+  publisher: Springer New York
+  url: http://dx.doi.org/10.1007/978-1-4614-0064-6
+  serial-number:
+    doi: 10.1007/978-1-4614-0064-6
+    isbn: '9781461400646'
+
+ar-customer-journey:
+  type: article
+  title: 'Augmented reality and the customer journey: An exploratory study'
+  author:
+  - Romano, Beatrice
+  - Sands, Sean
+  - Pallant, Jason I.
+  date: 2020-08
+  page-range: 354–363
+  url: http://dx.doi.org/10.1016/j.ausmj.2020.06.010
+  serial-number:
+    doi: 10.1016/j.ausmj.2020.06.010
+    issn: 1839-3349
+  parent:
+    type: periodical
+    title: Australasian Marketing Journal
+    publisher: SAGE Publications
+    issue: 4
+    volume: 29
+
+web-components-introduction:
+    type: Web
+    title: "Introduction - webcomponents.org"
+    url:
+        value: https://www.webcomponents.org/introduction
+        date: 2024-04-29
+
+degree-of-freedom:
+    type: Web
+    title: WebXR Device API
+    author: W3C
+    url:
+        value: https://www.w3.org/TR/webxr/#3dof
+        date: 2024-04-29
+
+interial-tracking-system:
+  type: article
+  title: Inertial tracking for mobile augmented reality
+  author:
+  - Lang, P.
+  - Kusej, A.
+  - Pinz, A.
+  - Brasseur, G.
+  url: http://dx.doi.org/10.1109/IMTC.2002.1007196
+  serial-number:
+    doi: 10.1109/imtc.2002.1007196
+  parent:
+    type: proceedings
+    title: IMTC/2002. Proceedings of the 19th IEEE Instrumentation and Measurement Technology Conference (IEEE Cat. No.00CH37276)
+    publisher: IEEE
+    parent:
+      type: proceedings
+      title: IMTC-02
+
+handheld-ar-design:
+  type: article
+  title: Designing and Evaluating Interactions for Handheld AR
+  author: Wieland, Jonathan
+  date: 2023-11
+  url: http://dx.doi.org/10.1145/3626485.3626555
+  serial-number:
+    doi: 10.1145/3626485.3626555
+  parent:
+    type: proceedings
+    title: Companion Proceedings of the 2023 Conference on Interactive Surfaces and Spaces
+    publisher: ACM
+    parent:
+      type: proceedings
+      title: ISS `23
+
+gesture-ar:
+  type: article
+  title: 'Gesture-based Interaction for AR Systems: A Short Review'
+  author:
+  - Gavgiotaki, Despoina
+  - Ntoa, Stavroula
+  - Margetis, George
+  - Apostolakis, Konstantinos C.
+  - Stephanidis, Constantine
+  date: 2023
+  page-range: 284-292
+  url: https://doi.org/10.1145/3594806.3594815
+  serial-number:
+    doi: 10.1145/3594806.3594815
+    isbn: '9798400700699'
+  abstract: Gesture-based interaction constitutes the prominent interaction modality for Augmented Reality (AR) systems. In this state-of-the-art review, we classify the recent literature on hand gesture-based AR interaction techniques, concerning the various domains where AR is gaining a foothold. Based on the conducted analysis, a taxonomy is introduced for the classification of the various reported techniques on the grounds of their application domain, the context of use, gestures recognition method, and types of gestures used. Furthermore, the discussed analysis reveals that context of use is a factor to take into account when determining the gestures that should be employed when developing an AR application. At the same time, there is a trade-off between touch-based and mid-air gestures, regarding their simplicity and user engagement entailed, which needs to be carefully considered. In all cases, it is of utmost importance that AR gesture-based systems are designed following a human-centered approach. The analysis conducted and reported in this paper aims to motivate the informed development and integration of hand gesture interaction of AR applications in various contexts and provide information on the different approaches that can be employed.
+  parent:
+    type: proceedings
+    title: Proceedings of the 16th International Conference on PErvasive Technologies Related to Assistive Environments
+    publisher: Association for Computing Machinery
+    location: Corfu, Greece
+    parent:
+      type: proceedings
+      title: PETRA '23
+
+in-air-gesture:
+  type: article
+  title: 'Gesture-based Interaction for AR Systems: A Short Review'
+  author:
+  - Gavgiotaki, Despoina
+  - Ntoa, Stavroula
+  - Margetis, George
+  - Apostolakis, Konstantinos C.
+  - Stephanidis, Constantine
+  date: 2023-07
+  url: http://dx.doi.org/10.1145/3594806.3594815
+  serial-number:
+    doi: 10.1145/3594806.3594815
+  parent:
+    type: proceedings
+    title: Proceedings of the 16th International Conference on PErvasive Technologies Related to Assistive Environments
+    publisher: ACM
+    parent:
+      type: proceedings
+      title: PETRA `23
+
+depth-gesture:
+  type: article
+  title: Depth camera based hand gesture recognition and its applications in Human-Computer-Interaction
+  author:
+  - Ren, Zhou
+  - Meng, Jingjing
+  - Yuan, Junsong
+  date: 2011-12
+  url: http://dx.doi.org/10.1109/ICICS.2011.6173545
+  serial-number:
+    doi: 10.1109/icics.2011.6173545
+  parent:
+    type: proceedings
+    title: 2011 8th International Conference on Information, Communications &amp; Signal Processing
+    publisher: IEEE
+
+glove-gesture:
+  type: article
+  title: 'Digits: Freehand 3D interactions anywhere using a wrist-worn gloveless sensor'
+  author:
+  - Kim, David
+  - Hilliges, Otmar
+  - Izadi, Shahram
+  - Butler, Alex
+  - Chen, Jiawen
+  - Oikonomidis, Iason
+  - Olivier, Patrick
+  date: 2012
+  page-range: 167-176
+  serial-number:
+    doi: 10.1145/2380116.2380139
+    isbn: '9781450315807'
+  parent:
+    type: proceedings
+
+user-defined-gesture:
+  type: article
+  title: User-Defined Gestures for Augmented Reality
+  author:
+  - Piumsomboon, Thammathip
+  - Clark, Adrian
+  - Billinghurst, Mark
+  - Cockburn, Andy
+  date: 2013
+  editor:
+  - Kotzé, Paula
+  - Marsden, Gary
+  - Lindgaard, Gitte
+  - Wesson, Janet
+  - Winckler, Marco
+  page-range: 282-299
+  serial-number:
+    isbn: 978-3-642-40480-1
+  abstract: Recently there has been an increase in research towards using hand gestures for interaction in the field of Augmented Reality (AR). These works have primarily focused on researcher designed gestures, while little is known about user preference and behavior for gestures in AR. In this paper, we present our guessability study for hand gestures in AR in which 800 gestures were elicited for 40 selected tasks from 20 participants. Using the agreement found among gestures, a user-defined gesture set was created to guide designers to achieve consistent user-centered gestures in AR. Wobbrock's surface taxonomy has been extended to cover dimensionalities in AR and with it, characteristics of collected gestures have been derived. Common motifs which arose from the empirical findings were applied to obtain a better understanding of users' thought and behavior. This work aims to lead to consistent user-centered designed gestures in AR.
+  parent:
+    type: proceedings
+    title: Human-Computer Interaction - INTERACT 2013
+    publisher: Springer Berlin Heidelberg
+    location: Berlin, Heidelberg
+
+overview-multimodal:
+  type: article
+  title: A Review of Multimodal Interaction Technique in Augmented Reality Environment
+  author:
+  - Muhammad Nizam, Siti
+  - Zainal Abidin, Rimaniza
+  - Che Hashim, Nurhazarifah
+  - name: chun
+    given-name: Lam
+    prefix: meng
+  - Arshad, Haslina
+  - Majid, Nazatul
+  date: 2018
+  page-range: 1460
+  serial-number:
+    doi: 10.18517/ijaseit.8.4-2.6824
+  parent:
+    type: periodical
+    title: International Journal on Advanced Science, Engineering and Information Technology
+    volume: 8
+
+touch-and-gesture-interaction:
+  type: article
+  title: Touch and hand gesture-based interactions for directly manipulating 3D virtual objects in mobile augmented reality
+  author:
+  - Kim, Minseok
+  - Lee, Jae Yeol
+  date: 2016-02
+  page-range: 16529-16550
+  url: http://dx.doi.org/10.1007/s11042-016-3355-9
+  serial-number:
+    doi: 10.1007/s11042-016-3355-9
+    issn: 1573-7721
+  parent:
+    type: periodical
+    title: Multimedia Tools and Applications
+    publisher: Springer Science, Business Media LLC
+    issue: 23
+    volume: 75
+
+progressive-enhancement:
+    type: Article
+    title: "Progressive Enhancement"
+    url:
+        value: https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement
+        date: 2024-04-29
+feature-detection:
+    type: Article
+    title: "Implementing feature detection"
+    url:
+        value: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection
+        date: 2024-04-2
+gltf-format:
+    type: Web
+    title: "glTF"
+    url:
+        value: https://www.loc.gov/preservation/digital/formats/fdd/fdd000498.shtml
+        date: 2024-04-29
+
+html-spec:
+    type: Web
+    title: "HTML Living Standard"
+    url:
+        value: https://html.spec.whatwg.org/
+        date: 2024-05-27
+
+dom-spec:
+    type: Web
+    title: "DOM Living Standard"
+    author: WHATWG
+    url:
+        value: https://dom.spec.whatwg.org
+        date: 2024-05-27

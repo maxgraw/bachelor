@@ -1,0 +1,12 @@
+Im folgenden Abschnitt werden die Ergebnisse der Evaluation vorgestelt. Diese stellen die Grundlage für die Anfolgende Diskussion dar.
+
+Der User Experience Questionnaire wurde mithilfe einer frei verfügbaren Excel-Vorlage durchgeführt. Diese Vorlage wird auf der offiziellen UEQ-Webseite bereitgestellt und ermöglicht das Laden und Auswerten der Daten @ueq-tool. Im Folgenden wird der Prozess der Datenerhebung und -auswertung näher erläutert. Die Grunddaten des UEQ sind in @appendix-resultBase dargestellt. Vor dem Import in das bereitgestellte Tool wurden die Daten auf die reinen UEQ-Item-Antworten reduziert. Im UEQ werden die positiven und negativen Begriffe in zufälliger Reihenfolge präsentiert, um Reihenfolgeeffekte zu minimieren. Um die Ergebnisse jedoch vergleichbar zu machen, transformiert das Tool die Daten in eine einheitliche Form. Diese transformierten Daten sind in @appendix-resultTransformed dargestellt. Die berechneten Skalenmittelwerte pro Person, welche auf den transformierten Daten basieren, sind in @appendix-resultTransformedMean dargestellt. Diese Mittelwerte bieten einen Überblick über die durchschnittliche Bewertung der einzelnen Skalen durch die Teilnehmer. Darüber hinaus findet man unter @appendix-resultDistribution die Verteilung der einzelnen Skalen des UEQ.
+
+Mithilfe der bereitgestellten Daten wurden die Mittelwerte der einzelnen Dimensionen des Fragebogens berechnet welche in @figure-ueq-benchmark als Mean dargestellt sind. Hierbei erzielte die Dimension Durchschaubarkeit mit einem Mittelwert von 1,679 den höchsten Wert, wobei die Varianz 0,46 betrug. Effizienz folgte mit einem Mittelwert von 1,667 und wies dabei die geringste Varianz von 0,27 auf. Die Dimension Attraktivität erhielt einen Mittelwert von 1,381 und eine Varianz von 0,32. Steuerbarkeit wurde mit einem Mittelwert von 1,500 und einer Varianz von 0,35 bewertet. Stimulation erzielte einen Mittelwert von 1,369 und wies dabei eine Varianz von 0,49 auf. Originalität erhielt den niedrigsten Mittelwert von 1,286 und zeigte mit 0,73 die größte Varianz.
+
+In der @figure-ueq-benchmark wird gleichzeitig der Vergleich mit Benchmark Werten dargestellt. Die Benchmark Daten wurden hierbei vom UEQ-Tool bereitgestellt und beinhalten Daten von 21.175 Personen aus 468 Studien. Die Produkte dieser Studien umfassen Geschäftssoftware, Webseiten, Webshops und soziale Netzwerke @ueq-tool.
+
+#figure(
+  image("../media/result/ueq_benchmark.png", width: 80%),
+  caption: [UEQ Benchmark Daten im Vergleich zu den Ergebnissen der Evaluation.],
+) <figure-ueq-benchmark>

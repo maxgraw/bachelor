@@ -1,0 +1,36 @@
+arcore-documentation:
+    type: Web
+    title: "ARCore Dokumentation"
+    url:
+      value: https://developers.google.com/ar/develop
+      date: 2024-04-29
+arcore-webxr-comparison:
+    type: Web
+    title: "WebXR compared to ARCore"
+    url:
+      value: https://developers.google.com/ar/develop/webxr/arcore-comparison
+      date: 2024-04-29
+google-ar:
+  type: Web
+  title: "Google AR & VR"
+  url:
+    value: https://arvr.google.com/
+    date: 2024-04-29
+apple-ar:
+  type: Web
+  title: "Augmented Reality - Apple"
+  url:
+    value: https://www.apple.com/augmented-reality/
+    date: 2024-04-29
+apple-developer-ar:
+  type: Web
+  title: "Augmented Reality - Apple Developer"
+  url:
+    value: https://developer.apple.com/augmented-reality/arkit/
+    date: 2024-04-29
+vuforia-documentation:
+    type: Web
+    title: "Vuforia Documentation"
+    url:
+      value: https://developer.vuforia.com/library/
+      date: 2024-05-28

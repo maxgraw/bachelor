@@ -1,0 +1,50 @@
+webxr-spec:
+    type: Web
+    title: "WebXR Device API"
+    date: 2024
+    url:
+        value: https://www.w3.org/TR/webxr/
+        date: 2024-04-29
+can-i-use-webxr:
+    type: Web
+    title: "Can i use webxr"
+    url:
+        value: https://caniuse.com/?search=webxr
+        date: 2024-04-29
+browser-market-share:
+    type: Web
+    title: "Statcounter Global Stats - Browser, OS, Search Engine including Mobile Usage Share"
+    url:
+        value: https://gs.statcounter.com/
+        date: 2024-04-29
+webxr-gamepad-module:
+    type: Web
+    title: "WebXR Gamepads Module - Level 1"
+    url:
+        value: https://www.w3.org/TR/webxr-gamepads-module-1/
+        date: 2024-04-29
+webxr-ar-module:
+    type: Web
+    title: WebXR Augmented Reality Module - Level 1
+    author: "W3C"
+    url:
+        value: https://www.w3.org/TR/webxr-ar-module-1/
+        date: 2024-04-29
+webxr-hit-test-module:
+    type: Web
+    title: WebXR Hit Test Module - Level
+    url:
+        value: https://www.w3.org/TR/webxr-hit-test-1/
+        date: 2024-04-29
+webxr-lighting-estimation-module:
+    type: Web
+    title: WebXR Lighting Estimation Module - Level 1
+    url:
+        value: https://www.w3.org/TR/webxr-lighting-estimation-1/
+        date: 2024-04-29
+user-agent:
+    type: Web
+    title: Definition of User Agent
+    url:
+        value: https://www.w3.org/WAI/UA/work/wiki/Definition_of_User_Agent
+        date: 2024-04-29

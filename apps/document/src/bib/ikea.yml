@@ -1,0 +1,98 @@
+ikea-sales-overview:
+    type: Web
+    title: E-commerce net sales of ikea.com from 2015 to 2023 (in million U.S. dollars)
+    author: "Statista"
+    publisher: "ecommerceDB.com"
+    date: 2024-03
+    url:
+      value: https://www.statista.com/forecasts/1218317/ikea-revenue-development-ecommercedb
+      date: 2024-04-29
+ikea-launch-place-app:
+    type: Article
+    title: "IKEA Place app launched to help people virtually place furniture at home"
+    date: 2017-09-12
+    url:
+      value: https://www.ikea.com/global/en/newsroom/innovation/ikea-launches-ikea-place-a-new-app-that-allows-people-to-virtually-place-furniture-in-their-home-170912/
+      date: 2024-04-29
+ikea-year-review-2023:
+  type: Article
+  title: "FY23 Year in Review"
+  date: 2024
+  url:
+    value: https://www.ikea.com/global/en/our-business/how-we-work/year-in-review-fy23/
+    date: 2024-04-29
+ikea-catalogue-ar:
+  type: Video
+  title: "Place IKEA furniture in your home with augmented reality"
+  date: 2013-07-26
+  url:
+    value: https://www.youtube.com/watch?v=vDNzTasuYEw
+    date: 2024-04-29
+ikea-mobile-app:
+  type: Web
+  title: "IKEA app"
+  url:
+    value: https://www.ikea.com/au/en/customer-service/mobile-apps/
+    date: 2024-04-29
+ikea-kreativ:
+  type: Web
+  title: "Bring your ideal home to life"
+  url:
+    value: https://www.ikea.com/au/en/home-design/learnmore/
+    date: 2024-04-29
+
+augmented-reality-apps-accepted:
+  type: article
+  title: 'How augmented reality apps are accepted by consumers: A comparative analysis using scales and opinions'
+  author:
+  - Rese, Alexandra
+  - Baier, Daniel
+  - Geyer-Schulz, Andreas
+  - Schreiber, Stefanie
+  date: 2017
+  page-range: 306-319
+  url: https://www.sciencedirect.com/science/article/pii/S0040162516304528
+  serial-number:
+    doi: https://doi.org/10.1016/j.techfore.2016.10.010
+    issn: 0040-1625
+  abstract: Increasingly, retailers rely on interactive technologies to improve consumers' shopping experiences. On the one side, interactive kiosks and smart mirrors make use of dedicated devices and software to explain, configure, and recommend products. On the other side, computer programs – so-called apps – are installed on the consumer's own device for the same purpose. They can be used at home, or – if installed on a mobile device – in retail outlets or on the move. In all cases, augmented reality (AR) can support these purposes by placing virtual content (e.g. new furniture) in a real environment (the consumer's home). The overall perception and acceptance toward such interactive technologies are discussed in this paper. Users' perceptions and experiences are measured by applying a modified technology acceptance model (TAM). Four experiments, two with marker-based and two with markerless AR apps are presented to support the generalization of the results, the measurement models and the measurement approach. The results are satisfactory with regard to the robustness of the TAM model. However, the relative importance of hedonic (enjoyment, pleasure, fun) and utilitarian (information) aspects varies for different kinds of AR apps and has to be considered for improvement to occur. From a measurement point of view the acquiescence bias has to be dealt with when developing scale items.
+  parent:
+    type: periodical
+    title: Technological Forecasting and Social Change
+    volume: 124
+
+influence-ar-purchase:
+  type: chapter
+  title: Influence of Augmented Reality on Purchase Intention
+  author:
+  - Zagorc, Ana
+  - Bernik, Andrija
+  date: 2022
+  page-range: 345-357
+  serial-number:
+    doi: 10.1007/978-3-031-10461-9_24
+    isbn: 978-3-031-10460-2
+  parent:
+    type: book
+
+intention-ar-purchase:
+  type: article
+  title: The Intention to Use E-Commerce Using Augmented Reality - The Case of IKEA Place
+  author:
+  - Alves, Carlos
+  - Luís Reis, José
+  date: 2020
+  editor:
+  - Rocha, Álvaro
+  - Ferrás, Carlos
+  - Montenegro Marin, Carlos Enrique
+  - Medina García, Víctor Hugo
+  page-range: 114–123
+  serial-number:
+    isbn: 978-3-030-40690-5
+  abstract: The evolution of technologies stimulates the e-commerce market. Recently, augmented reality has been creating significant value in the retail sector. This study aims to analyse an application, IKEA Place, which allows consumers to shop online using augmented reality technology without the need for a marker to identify the surface (Markerless Augmented Reality). The model to evaluate this study was based on the constructs of Technology Acceptance Model (TAM) and other models. The sustainability of the study is exploratory and involves identifying whether this application aims to create more confidence and convenience in the acquisition of a product through the support of this technology. The study was carried out in the North of Portugal, obtaining a convenience sampling in the Porto and Braga regions. The results concluded that there are no significant differences based on sociodemographic data, the operating system used, familiarity with the organization related to the intended use. In contrast, technology changes have been found to offer consumers more confidence and convenience of purchase. Significant results were also obtained in terms of user experience, the preference of this application to make online purchases over existing channels, the future use of such technologies by users to purchase a product and the attraction of purchase regarding perceived ease of use of the application under analysis.
+  parent:
+    type: proceedings
+    title: Information Technology and Systems
+    publisher: Springer International Publishing
+    location: Cham

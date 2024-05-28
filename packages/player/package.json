@@ -1,0 +1,22 @@
+{
+	"name": "player",
+	"version": "0.0.1",
+	"exports": {
+		"./base": {
+			"import": "./src/base/index.js"
+		},
+		"./interactive": {
+			"import": "./src/interactive/index.js"
+		},
+		"./shop": {
+			"import": "./src/shop/index.js"
+		}
+	},
+	"dependencies": {
+		"three": "0.164.1",
+		"three-mesh-ui": "6.5.4",
+		"components": "workspace:*",
+		"utils": "workspace:*"
+	},
+	"type": "module"
+}

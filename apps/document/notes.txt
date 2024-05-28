@@ -1,0 +1,55 @@
+- WebXR:
+- WebXR API
+- WebXR Device API
+- WebXR Hit Test API
+- WebXR Hand Input API
+- WebXR Anchors API
+- WebXR Layers API
+
+- WebXR Frameworks:
+- A-Frame
+- Babylon.js
+- Three.js
+
+- Applikationen
+- Ikea Place
+
+- Einleitung
+    - Motivation
+    - Ziel
+    - Aufbau
+
+- Theoretische Grundlagen
+    - Web Components
+    - Augmented Reality
+        - Input
+        - Display
+        - Tracking
+    - WebXR
+        - Session API
+        - WebXR Augmented Reality Module
+        - Hit Test API
+
+- Stand der Technik
+    - Aktuelle Studien
+        - ...
+    - AR Anwendungen
+        - Ikea Place
+        - ...
+    - WebXR Frameworks
+        - A-Frame
+        - Babylon.js
+        - Three.js
+
+- Konzeptentwicklung
+    - Zielgruppendefinition
+    - Anforderungsanalyse
+
+- Implementierung
+
+- Evaluation
+    - Zielsetzung
+    - Methodik
+    - Ergebnisse
+
+- Ausblick und Fazit

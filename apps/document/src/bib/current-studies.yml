@@ -1,0 +1,81 @@
+ar-ui-frameworks:
+  type: article
+  title: 'Mobile Augmented Reality: User Interfaces, Frameworks, and Intelligence'
+  author:
+  - Cao, Jacky
+  - Lam, Kit-Yung
+  - Lee, Lik-Hang
+  - Liu, Xiaoli
+  - Hui, Pan
+  - Su, Xiang
+  date: 2023-01
+  url: https://doi.org/10.1145/3557999
+  serial-number:
+    doi: 10.1145/3557999
+    issn: 0360-0300
+  abstract: 'Mobile Augmented Reality (MAR) integrates computer-generated virtual objects with physical environments for mobile devices. MAR systems enable users to interact with MAR devices, such as smartphones and head-worn wearables, and perform seamless transitions from the physical world to a mixed world with digital entities. These MAR systems support user experiences using MAR devices to provide universal access to digital content. Over the past 20 years, several MAR systems have been developed, however, the studies and design of MAR frameworks have not yet been systematically reviewed from the perspective of user-centric design. This article presents the first effort of surveying existing MAR frameworks (count: 37) and further discusses the latest studies on MAR through a top-down approach: (1) MAR applications; (2) MAR visualisation techniques adaptive to user mobility and contexts; (3) systematic evaluation of MAR frameworks, including supported platforms and corresponding features such as tracking, feature extraction, and sensing capabilities; (4) and underlying machine learning approaches supporting intelligent operations within MAR systems. Finally, we summarise the development of emerging research fields and the current state-of-the-art and discuss the important open challenges and possible theoretical and technical directions. This survey aims to benefit both researchers and MAR system developers alike.'
+  parent:
+    type: periodical
+    title: ACM Comput. Surv.
+    publisher: Association for Computing Machinery
+    location: New York, NY, USA
+    issue: 9
+    volume: 55
+
+
+ar-ux-mobile:
+  type: article
+  title: 'User Experience in Mobile Augmented Reality: Emotions, Challenges, Opportunities and Best Practices'
+  author:
+  - Dirin, Amir
+  - Laine, Teemu H.
+  date: 2018
+  url: https://www.mdpi.com/2073-431X/7/2/33
+  serial-number:
+    doi: 10.3390/computers7020033
+    issn: 2073-431X
+  abstract: Mobile Augmented Reality (MAR) is gaining a strong momentum to become a major interactive technology that can be applied across domains and purposes. The rapid proliferation of MAR applications in global mobile application markets has been fueled by a range of freely-available MAR software development kits and content development tools, some of which enable the creation of MAR applications even without programming skills. Despite the recent advances of MAR technology and tools, there are still many challenges associated with MAR from the User Experience (UX) design perspective. In this study, we first define UX as the emotions that the user encounters while using a service, a product or an application and then explore the recent research on the topic. We present two case studies, a commercial MAR experience and our own Virtual Campus Tour MAR application, and evaluate them from the UX perspective, with a focus on emotions. Next, we synthesize the findings from previous research and the results of the case study evaluations to form sets of challenges, opportunities and best practices related to UX design of MAR applications. Based on the identified best practices, we finally present an updated version of the Virtual Campus Tour. The results can be used for improving UX design of future MAR applications, thus making them emotionally engaging.
+  parent:
+    type: periodical
+    title: Computers
+    issue: 2
+    volume: 7
+
+
+ar-online-review:
+  type: article
+  title: 'Augmented reality in online retailing: A systematic review and research agenda'
+  author: Kumar, Harish
+  date: 2021
+  page-range: ''
+  serial-number:
+    doi: 10.1108/IJRDM-06-2021-0287
+  parent:
+    type: periodical
+    title: International Journal of Retail & Distribution Management
+
+ar-helper:
+  type: chapter
+  title: Augmented Reality als Entscheidungshilfe beim M{ö}belkauf
+  author:
+  - Aemmer, David
+  - Bigler, Jonas
+  - Birkhofer, Marco
+  - Brechbühler Pešková, Marie
+  - Harder, Deane
+  date: 2020
+  editor:
+  - Schellinger, Jochen
+  - Tokarski, Kim Oliver
+  - Kissling-Näf, Ingrid
+  page-range: 355-381
+  url: https://doi.org/10.1007/978-3-658-26960-9_13
+  serial-number:
+    doi: 10.1007/978-3-658-26960-9_13
+    isbn: 978-3-658-26960-9
+  abstract: Diese Studie untersucht den Einfluss von Augmented Reality (AR) auf den Kaufentscheidungsprozess beim M{ö}belkauf. Ziel der Studie waren konkrete, handlungsleitende und wissenschaftlich fundierte Erkenntnisse f{ü}r die Praxis im Umgang mit der digitalen Transformation. Daf{ü}r wurde der Einfluss einer AR-App in der M{ö}belbranche untersucht. Es konnte gezeigt werden, dass die AR-App ihren Nutzern eine wertvolle Unterst{ü}tzung im Kaufentscheidungsprozess bietet. Die App funktioniert jedoch nicht als eigenst{ä}ndiger Kanal, sondern entfaltet ihren Nutzen nur im Zusammenspiel mit den bisherigen Kan{ä}len und Hilfsmitteln. Insbesondere der Austausch mit Dritten bietet deutliches Entwicklungspotenzial und Chancen, die Customer Experience weiter zu verbessern. Einen klaren Kundenmehrwert w{ü}rde eine h{ä}ndler{ü}bergreifende AR-App bieten. Weiterer Forschungsbedarf ergibt sich aus den R{ü}ckkoppelungseffekten zwischen ver{ä}nderter Kundeninteraktion und Technologieentwicklung.
+  parent:
+    type: book
+    title: 'Digitale Transformation und Unternehmensf{ü}hrung: Trends und Perspektiven f{ü}r die Praxis'
+    publisher: Springer Fachmedien Wiesbaden
+    location: Wiesbaden

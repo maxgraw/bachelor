@@ -1,0 +1,34 @@
+Im Folgenden werden verschiedene Anwendungen von Augmented Reality im Online-Handel vorgestellt.
+
+=== IKEA
+Wie in @current-studies-chapter gezeigt, bietet Augmented Reality im Online-Handel neue Möglichkeiten zur Kundeninteraktion und -bindung. Auf Grundlage dieser Informationen wird im Folgenden auf die Augmented-Reality-Strategie von IKEA eingegangen. IKEA ist ein multinationaler Einzelhandelskonzern, der sich auf den Verkauf von Möbeln und Wohnaccessoires spezialisiert hat. Historisch verfügte das Unternehmen vor allem über stationäre Geschäfte, hat jedoch in den letzten Jahren auch den Online-Handel ausgebaut.
+Nach einem Starken Anstieg des Online-Handels während der Pandemie, ist der Umsatz nach Abschluss der Pandemie zwar leicht eingebrochen, hat sich jedoch im Vergleich zu den Vorjahren stabilisiert @ikea-sales-overview, @ikea-year-review-2023.
+
+==== IKEA Katalog
+Im Jahr 2013 führte IKEA seine erste Augmented-Reality-Anwendung ein. Diese Anwendung ermöglichte es, ausgewählte Produkte aus dem gedruckten IKEA-Katalog interaktiv zu erleben. Um die Augmented-Reality-Funktionalität zu nutzen, mussten die Produktseite im Katalog gescannt werden. Anschließend diente der zugeklappte Katalog als Raummarker, der die Positionierung und Skalierung des virtuellen Möbelstücks im Raum ermöglichte @ikea-catalogue-ar.
+
+Rese et al. untersuchten die Akzeptanz von Augmented-Reality-Anwendungen bei Konsumenten. Hierbei wurden markierungslose Anwendungen mit markerbasierten Anwendungen verglichen. Innerhalb der Studie wurde die Ikea Katalog App als Beispiel für eine markerbasierte Anwendung herangezogen und untersucht. Die Studie kam zu der Schlussfolgerung, dass sowohl markierungslose als auch markerbasierte Anwendungen von den Konsumenten akzeptiert wurden, jedoch eine Präferenz für markierungslose Anwendungen bestand @augmented-reality-apps-accepted.
+
+Eine zusätzliche Studie beleuchtete die IKEA Catalog App im Hinblick auf ihren Einfluss auf Kaufentscheidungen. Im Vergleich zum Einkauf über die Webseite stellte sich heraus, dass die AR-Anwendung die Kaufentscheidung positiv beeinflusste @influence-ar-purchase. Dies deutet darauf hin, dass die Möglichkeit, Produkte virtuell im eigenen Raum zu platzieren und zu betrachten, den Kunden ein überzeugenderes Einkaufserlebnis bietet.
+
+==== IKEA Place
+Nach der Einstellung der IKEA Katalog Anwendunge im Jahr 2017 führte IKEA die neue Anwendung IKEA Place ein. Wie bei der vorherigen Anwendung ermöglicht IKEA Place es Benutzern, Möbelstücke virtuell in ihrem eigenen Raum zu platzieren. Im Gegensatz zur vorherigen App, die auf markierungsbasierter Augmented Reality basierte, funktioniert IKEA Place markierungslos und ermöglicht eine direkte Interaktion mit der Umgebung. Dies wird durch die Nutzung der ARKit-Technologie von Apple ermöglicht, einem Framework, das speziell für die Entwicklung von Augmented-Reality-Anwendungen auf iOS-Geräten konzipiert wurde @ikea-launch-place-app.
+
+Eine Studie zur Nutzung von IKEA Place zeigt, dass die Anwendung das Vertrauen der Benutzer beim Online-Kauf erheblich stärkt. Es wurde festgestellt, dass, Nutzer beim Einsatz der IKEA Place-Anwendung ein größeres Vertrauen und eine höhere Kaufbequemlichkeit empfanden. Zudem unterstreicht die Studie, dass die Vertrautheit mit IKEA nicht notwendig ist, um ein Produkt über die IKEA Place-Anwendung zu kaufen @intention-ar-purchase.
+
+==== Ikea Kreativ
+IKEA Kreativ ist eine weitere Augmented-Reality-Anwendung von IKEA, die es ermöglicht, Möbelstücke virtuell im eigenen Raum zu platzieren. Der Prozess unterscheidet sich jedoch stark von vorherigen Anwendungen: Zunächst wird mithilfe mehrerer Fotoaufnahmen des Raumes ein 3D-Modell erstellt. Anschließend können die Möbelstücke in das Modell integriert und positioniert werden. Der Fokus der Anwendung liegt hierbei auf der Visualisierung einer kompletten Raumgestaltung @ikea-kreativ. Aufgrund dieses Prozesses ist die Anwendung für diese Arbeit nicht relevant und wird daher nicht weiter betrachtet.
+
+==== Ikea App
+Die zuvor genannten Anwendungen wurden in der IKEA-App zusammengeführt. Hierbei handelt es sich um eine mobile Anwendung, die zunächst grundlegende Funktionen eines Online-Shops bereitstellt. Die Funktionalität der IKEA Place Anwendung kann hierbei auf den meisten Produktseiten aufgerufen werden und benötigt somit keine separate Anwendung. Funktionalitäten wie IKEA Kreativ befinden sich auf speziellen Unterseiten der App @ikea-mobile-app. Durch die Integration der Augmented-Reality-Funktionen in die Haupt Anwendung wird die Zugänglichkeit sowie Benutzerfreundlichkeit der Anwendung gesteigert.
+
+=== Wayfair
+Wayfair ist ein US-amerikanisches E-Commerce-Unternehmen, das sich auf den Verkauf von Möbeln und Wohnaccessoires spezialisiert. Das Unternehmen bietet eine breite Palette von Produkten an und gehört zu den führenden Online-Händlern für Möbel @wayfair-revenue, @wayfair-website. Wayfair hat Augmented Reality als Bestandteil seiner E-Commerce-Strategie eingeführt und bietet verschiedene AR-Anwendungen an, um das Einkaufserlebnis der Kunden zu verbessern @wayfair-ar-blog.
+
+==== WayfairView
+Wayfair führte seine Augmented-Reality-Technologie erstmals im Jahr 2016 mit der App WayfairView ein. Die Anwendung wurde mithilfe der mittlerweile eingestellten Google-Tango-Plattform entwickelt @wayfairview-google-blog. Die Tango-Plattform stellt ein Augmented-Reality-SDK bereit, das es ermöglicht, virtuelle Objekte in der realen Welt zu platzieren und mit ihnen zu interagieren @google-tango.
+
+WayfairView ermöglichte es den Nutzern, den Produktkatalog von Wayfair zu durchsuchen und Möbelstücke virtuell in ihrem eigenen Raum zu platzieren. Anschließend konnte die Positionierung der Möbelstücke angepasst werden @wayfairview-apk. Es handelte sich um eine markerlose Augmented-Reality-Anwendung. Es lassen sich keine speziellen Studien im Bezug auf die WayfairView-App finden, jedoch lassen sich Parallelen zur IKEA-Place-Anwendung ziehen. Beide Anwendungen ermöglichen ein markerlose Platzieren von ausgewählten Möbelstücken im eigenen Raum. Dementsprechend lassen sich die Vorteile und der Nutzen der IKEA-Place-Anwendung auch auf die WayfairView-App übertragen.
+
+==== Wayfair App
+Durch die Einführung von ARCore sowie ARKit wurde die Entwicklung der WayfairView-Anwendung eingestellt, und die Google-Tango-Plattform wurde durch ARCore ersetzt. Dadurch konnte eine plattformübergreifende Funktionalität gewährleistet werden. Die AR-Funktionalität wurde in die Haupt-Wayfair-App integriert, wodurch die Nutzer direkt aus der App heraus Möbelstücke virtuell in ihrem Raum platzieren können. Die Integration der AR-Funktionalität in die Hauptanwendung ermöglicht eine nahtlose Interaktion und verbessert das Einkaufserlebnis der Kunden @wayfair-ar-blog.

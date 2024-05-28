@@ -1,0 +1,5 @@
+Das Ziel dieser Arbeit liegt in der erfolgreichen Entwicklung einer zuvor konzipierten Augmented Reality Möbelkonstruktionsumgebung auf Basis von WebXR.
+
+Die erfolgreiche Entwicklung der Anwendung wird anhand verschiedener Kriterien überprüft. Die in der Konzeption festgelegten funktionalen Anforderungen, die die Anwendung in ihrer Funktionalität beschreiben, wurden bereits im Kapitel der Implementierung reflektiert. Die Evaluation dient der Überprüfung der Benutzererfahrung. Innerhalb der Anforderungsanalyse wurde hierbei Benutzererfahrung als nicht-funktionale Anforderung definiert.
+
+Wie bereits zuvor in dieser Arbeit vorgestellt, wurde die Anwendung in der Arbeit von Maximilian Patzke verwendet, um ein Online-Shop-System im Zusammenhang zu entwickeln. Die Anwendung wurde mittels Experteninterviews und einer Think-Aloud-Studie evaluiert. Im Kapitel der Diskussion wird hierbei auf die dort erzielten Ergebnisse eingegangen. Durch die Einbindung der Ergebnisse von Maximilian Patzke können weitere Erkenntnisse in Bezug auf die Benutzerfreundlichkeit und Benutzererfahrung der Anwendung sowie weitere nicht funktionale Anforderungen gewonnen werden.

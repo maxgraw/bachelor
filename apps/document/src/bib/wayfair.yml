@@ -1,0 +1,46 @@
+wayfair-ar-blog:
+  type: misc
+  title: Augmented Reality with a Purpose
+  author: Brewton, Samuel
+  date: 2022
+  url:
+    value: https://www.aboutwayfair.com/augmented-reality-with-a-purpose
+    date: 2024-04-29
+
+wayfair-app-blog:
+    type: Web
+    title:  "Wayfair Unveils New Mobile App Features, Makes Shopping for Home from Anywhere Easier Than Ever Before"
+    url:
+      value: https://investor.wayfair.com/news/news-details/2019/Wayfair-Unveils-New-Mobile-App-Features-Makes-Shopping-for-Home-from-Anywhere-Easier-Than-Ever-Before/default.aspx
+      date: 2024-04-29
+wayfairview-google-blog:
+    type: blog
+    title:  "Shopping made simple with Tango and WayfairView"
+    date: 2016
+    url:
+      value: https://developers.googleblog.com/en/shopping-made-simple-with-tango-and-wayfairview/
+      date: 2024-04-29
+google-tango:
+    type: Web
+    title:  "Tango - Google Help"
+    url:
+      value: https://support.google.com/faqs/faq/6029402?hl=en&sjid=11631411643343605938-EU
+      date: 2024-04-29
+wayfairview-apk:
+    type: Web
+    title:  "WayfairView APK"
+    url:
+      value: https://www.apkmirror.com/apk/wayfair-llc/wayfairview/
+      date: 2024-04-29
+wayfair-revenue:
+    type: blog
+    title:  "Wayfair Announces Fourth Quarter and Full Year 2023 Results, Returns to Positive Year-Over-Year Active Customer Growth"
+    url:
+      value: https://investor.wayfair.com/news/news-details/2024/Wayfair-Announces-Fourth-Quarter-and-Full-Year-2023-Results-Returns-to-Positive-Year-Over-Year-Active-Customer-Growth/default.aspx
+      date: 2024-05-27
+wayfair-website:
+    type: Web
+    title:  "Wayfair.com - online home store for furniture, decor, outdoors & more"
+    url:
+      value: https://www.wayfair.com/
+      date: 2024-05-27

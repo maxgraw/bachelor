@@ -1,0 +1,54 @@
+nodejs:
+    type: "Web"
+    title: "Node.js- Run JavaScript Everywhere"
+    url:
+      value: https://nodejs.org/en
+      date: 2024-04-29
+pnpm-motivation:
+    type: "Web"
+    title: "Motivation | pnpm"
+    url:
+      value: https://pnpm.io/motivation
+      date: 2024-04-29
+turborepo:
+    type: "Web"
+    title: "TurboRepo"
+    url:
+      value: https://turbo.build/repo
+      date: 2024-04-29
+threejs-renderer:
+    type: "Web"
+    title: "WebGLRenderer Constants"
+    url:
+      value: https://threejs.org/docs/#api/en/constants/Renderer
+      date: 2024-04-29
+github-project:
+    type: "Web"
+    title: "GitHub Project"
+    url:
+      value: https://github.com/maxgraw/bachelor
+      date: 2024-05-26
+vite:
+    type: "Web"
+    title: "Vite Next Generation Frontend Tooling"
+    url:
+      value: https://vitejs.dev
+      date: 2024-05-26
+three-js:
+    type: "Web"
+    title: "Three.js"
+    url:
+      value: https://threejs.org
+      date: 2024-05-26
+three-mesh-ui:
+    type: "Web"
+    title: "Three Mesh UI"
+    url:
+      value: https://github.com/felixmariotto/three-mesh-ui
+      date: 2024-05-26
+svelte-kit:
+    type: "Web"
+    title: "SvelteKit"
+    url:
+      value: https://kit.svelte.dev
+      date: 2024-05-26
